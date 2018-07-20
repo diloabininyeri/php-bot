@@ -1,0 +1,25 @@
+{
+    "name": "zeus/api_json_film",
+    "description": "api jjson film",
+    "authors": [
+        {
+            "name": "dılo sürücü",
+            "email": "berxudar@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">7.0.0",
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload":{
+
+        "psr-4":{
+
+            "Sinemia\\":"sinemia",
+             "Tiyatrolar\\":"tiyatrolar",
+            "Biletix\\":"biletix",
+            "Factory\\":"factory",
+            "Interfaces\\":"interfaces"
+        }
+    }
+}
