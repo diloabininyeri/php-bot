@@ -13,6 +13,7 @@ return array(
     'Interfaces\\' => array($baseDir . '/interfaces'),
     'Factory\\' => array($baseDir . '/factory'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
+    'Diziler\\' => array($baseDir . '/diziler'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'Biletix\\' => array($baseDir . '/biletix'),
 );

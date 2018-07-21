@@ -19,7 +19,8 @@
              "Tiyatrolar\\":"tiyatrolar",
             "Biletix\\":"biletix",
             "Factory\\":"factory",
-            "Interfaces\\":"interfaces"
+            "Interfaces\\":"interfaces",
+            "Diziler\\":"diziler"
         }
     }
 }

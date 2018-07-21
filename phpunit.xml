@@ -8,6 +8,9 @@
             <directory suffix=".php">
                 ./tiyatrolar/test
             </directory>
+            <directory suffix=".php">
+                ./diziler/test
+            </directory>
         </testsuite>
     </testsuites>
 </phpunit>

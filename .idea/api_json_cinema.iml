@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/biletix" isTestSource="false" packagePrefix="Biletix\" />
       <sourceFolder url="file://$MODULE_DIR$/factory" isTestSource="false" packagePrefix="Factory\" />
       <sourceFolder url="file://$MODULE_DIR$/interfaces" isTestSource="false" packagePrefix="Interfaces\" />
+      <sourceFolder url="file://$MODULE_DIR$/diziler" isTestSource="false" packagePrefix="Diziler\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
