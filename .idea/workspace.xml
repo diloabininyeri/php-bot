@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a4c620-401c-44a5-99a8-5895dc0f2b54" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/api_json_cinema.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_json_cinema.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/factory/FactoryClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/factory/FactoryClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,13 +35,57 @@
       <file leaf-file-name="FactoryClass.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/factory/FactoryClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="92" column="8" lean-forward="true" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+            <state relative-caret-position="435">
+              <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
               <folding>
                 <element signature="e#28#70#0#PHP" expanded="true" />
-                <element signature="e#1436#1507#0#PHP" />
-                <element signature="e#1523#2438#0#PHP" />
+                <element signature="e#1887#2207#0#PHP" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diziler/src/Content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegexSinemia.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diziler/src/RegexSinemia.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Result.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diziler/src/Result.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diziler/test/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diziler/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -53,8 +93,8 @@
       <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -103,6 +143,11 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/diziler/src/Content.php" />
+        <option value="$PROJECT_DIR$/diziler/src/RegexSinemia.php" />
+        <option value="$PROJECT_DIR$/diziler/src/Result.php" />
+        <option value="$PROJECT_DIR$/diziler/test/index.php" />
+        <option value="$PROJECT_DIR$/diziler/index.php" />
         <option value="$PROJECT_DIR$/factory/FactoryClass.php" />
       </list>
     </option>
@@ -173,6 +218,23 @@
             <path>
               <item name="api_json_cinema" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_json_cinema" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="diziler" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api_json_cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_json_cinema" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="diziler" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api_json_cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_json_cinema" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="diziler" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="test" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api_json_cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_json_cinema" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="factory" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -219,12 +281,12 @@
       <workItem from="1532085576454" duration="221000" />
       <workItem from="1532085930329" duration="528000" />
       <workItem from="1532086473556" duration="11492000" />
-      <workItem from="1532154997526" duration="1096000" />
+      <workItem from="1532154997526" duration="2457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13337000" />
+    <option name="totallyTimeSpent" value="14698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -244,8 +306,8 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948583" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2963362" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86849713" visible="true" weight="0.20840243" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.2963362" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.86849713" visible="true" weight="0.14870094" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.24875621" />
       <window_info id="Structure" order="1" sideWeight="0.1315029" side_tool="true" weight="0.20619127" />
@@ -278,8 +340,7 @@
           <caret line="59" column="9" lean-forward="true" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
           <folding>
             <element signature="e#28#70#0#PHP" expanded="true" />
-            <element signature="e#1436#1507#0#PHP" />
-            <element signature="e#1523#2438#0#PHP" />
+            <element signature="e#1887#2207#0#PHP" />
           </folding>
         </state>
       </provider>
@@ -433,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -454,14 +508,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diziler/src/RegexSinemia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diziler/src/Result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diziler/test/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diziler/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diziler/src/Content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/factory/FactoryClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="92" column="8" lean-forward="true" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+        <state relative-caret-position="435">
+          <caret line="100" column="48" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
           <folding>
             <element signature="e#28#70#0#PHP" expanded="true" />
-            <element signature="e#1436#1507#0#PHP" />
-            <element signature="e#1523#2438#0#PHP" />
+            <element signature="e#1887#2207#0#PHP" />
           </folding>
         </state>
       </provider>

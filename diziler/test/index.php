@@ -1,0 +1,17 @@
+<?php
+require_once "vendor/autoload.php";
+
+header('Content-Type: application/json');
+
+use Diziler\src\{Content,Result};
+
+
+
+
+$content=(new Content())->fileGetContentRemoteSite("https://www.sinemia.com/gelecek-filmler");
+
+$result=(new Result())->getResultRegex($content);
+
+
+echo json_encode($result);
+
