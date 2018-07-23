@@ -2,6 +2,7 @@
 
 namespace Diziler\src;
 
+use PHPHtmlParser\Dom;
 
 class Result
 {
@@ -13,14 +14,11 @@ class Result
 
     private $regexDiziler;
 
+
     /**
-     * @param Content $content
-     * @return array
-     *
+     * Result constructor.
      *
      */
-
-
     public function __construct()
     {
 
@@ -39,35 +37,33 @@ class Result
     {
 
 
-        preg_match_all('@<a class="search-item" href=".*" title=".*">(.*?)<\/a>@si', $content, $found,PREG_PATTERN_ORDER);
+        $dom = new Dom();
+
+        $dom->load($content);
+
+        $find = $dom->find(".search-item");
+
 
         $index = 0;
 
-        $siteUrl='http://www.diziler.com';
+        $siteUrl = 'http://www.diziler.com';
 
 
+        foreach ($find as $val) {
 
 
+            $this->array[$index]["title"] = $this->regexDiziler->getTitleFromContentWithRegex($val);
+            $this->array[$index]["resim"] = $siteUrl . $this->regexDiziler->getImagefromContentWithRegex($val)[1];
+            $this->array[$index]["href"] = $siteUrl . $this->regexDiziler->getTHrefFromContentWithRegex($val);
+            $this->array[$index]["video"] = $this->regexDiziler->getVideoSrcFromurlWithRegex(file_get_contents($siteUrl . $this->regexDiziler->getTHrefFromContentWithRegex($val)));
+            $this->array[$index]["description"]=$this->regexDiziler->getDescriptionFromContentWithRegex($val);
+            $index += 1;
 
 
-
-            foreach ($found[0] as $val)
-            {
+        }
 
 
-
-                $this->array[$index]["title"] =$this->regexDiziler->getTitleFromContentWithRegex($val);
-                $this->array[$index]["resim"] = $siteUrl.$this->regexDiziler->getImagefromContentWithRegex($val)[1];
-                $this->array[$index]["href"] = $siteUrl.$this->regexDiziler->getTHrefFromContentWithRegex($val);
-                $this->array[$index]["video"]=$this->regexDiziler->getVideoSrcFromurlWithRegex(file_get_contents($siteUrl.$this->regexDiziler->getTHrefFromContentWithRegex($val)));
-                $index += 1;
-
-
-            }
-
-
-
-        return $this->array ;
+        return $this->array;
 
 
     }

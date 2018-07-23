@@ -11,20 +11,21 @@ class Result
      */
     private $array = [];
 
-    private $regexSinemia;
+    private $regexSinemia,
+        $contentSinemia;
 
     /**
-     * @param Content $content
-     * @return array
+     * Result constructor.
      *
      *
      */
-
 
     public function __construct()
     {
 
         $this->regexSinemia = new RegexSinemia();
+        $this->contentSinemia = new \Sinemia\src\Content();
+
 
     }
 
@@ -50,7 +51,13 @@ class Result
             $this->array[$index]["title"] = $this->regexSinemia->getTitleFromContentWithRegex($val);
             $this->array[$index]["resim"] = $this->regexSinemia->getImagefromContentWithRegex($val)[1];
             $this->array[$index]["href"] = $this->regexSinemia->getTHrefFromContentWithRegex($val);
-            //$this->array[$index]["description"] = $this->regexSinemia->getDescriptionFromContentWithRegex(file_get_contents($this->regexSinemia->getTHrefFromContentWithRegex($val)));
+
+            $newLinkPageContent = $this->contentSinemia->fileGetContentRemoteSite($this->regexSinemia->getTHrefFromContentWithRegex($val));
+
+            $this->array[$index]["date"]=$this->regexSinemia->getDateFromContentWithRegex($newLinkPageContent);
+            /*
+
+            $this->array[$index]["description"] = $this->regexSinemia->getDescriptionFromContentWithRegex($newLinkPageContent);*/
 
             $index += 1;
         }

@@ -9,22 +9,20 @@ class Result
      * @var array
      *
      */
-    private $array = [];
+    private $array = [],
+            $regexTiyatrolarComTr,
+            $contentTiyatrolarComTr;
 
-    private $regexTiyatrolarComTr;
 
     /**
-     * @param Content $content
-     * @return array
-     *
+     * Result constructor.
      *
      */
-
-
     public function __construct()
     {
 
         $this->regexTiyatrolarComTr = new RegexTiyarolarComTr();
+        $this->contentTiyatrolarComTr = new Content();
 
     }
 
@@ -44,9 +42,16 @@ class Result
         $index = 0;
 
         foreach ($found[0] as $val) {
+
             $this->array[$index]["title"] = $this->regexTiyatrolarComTr->getTitleFromContentWithRegex($val);
             $this->array[$index]["resim"] = $this->regexTiyatrolarComTr->getImagefromContentWithRegex($val)[1];
             $this->array[$index]["href"] = $this->regexTiyatrolarComTr->getTHrefFromContentWithRegex($val);
+
+            $contentNewLinkPage = $this->contentTiyatrolarComTr->fileGetContentRemoteSite($this->regexTiyatrolarComTr->getTHrefFromContentWithRegex($val));
+
+            $this->array[$index]["seans"] = $this->regexTiyatrolarComTr->getSeansFromContentWithRegex($contentNewLinkPage);
+            $this->array[$index]["description"] = $this->regexTiyatrolarComTr->getDescriptionFromContentWithRegex($content);
+
             $index += 1;
         }
 

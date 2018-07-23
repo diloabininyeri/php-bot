@@ -1,8 +1,8 @@
 <?php
 
-
 namespace Tiyatrolar\src;
 
+use PHPHtmlParser\Dom;
 
 class RegexTiyarolarComTr
 {
@@ -11,7 +11,6 @@ class RegexTiyarolarComTr
      * $contentOfPregMatchAll;
      */
     public $contentOfPregMatchAll;
-
 
 
     /**
@@ -55,6 +54,64 @@ class RegexTiyarolarComTr
         return $result;
     }
 
+
+    /**
+     * @param $content
+     * @return array
+     *
+     */
+
+    function getDescriptionFromContentWithRegex($content)
+    {
+
+
+
+        $re = '/<p>(.+?)<a href="#" class="expand_more" id="show_more_act_summary" style="display: block;"><br>DEVAMI/m';
+
+        preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
+
+
+        return $matches;
+
+
+    }
+
+    /**
+     * @param $content
+     * @return mixed
+     *
+     *
+     */
+    public function getFoundationDateFromContentwithRegex($content)
+    {
+
+
+        $re = '/<li>.*<\/i>(.+)<\/li>/m';
+        preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
+
+
+        return $matches[0][1];
+
+    }
+
+    /**
+     * @param $content
+     * @return mixed
+     *
+     */
+
+    public function getSeansFromContentWithRegex($content)
+    {
+
+        $re = '/<p class="ses-p">(.+)<\/p>/m';
+
+        preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
+
+
+        return $matches[0]["seans"];
+
+
+    }
 
 
 }

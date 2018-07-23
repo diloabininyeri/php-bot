@@ -8,15 +8,15 @@ class RegexSinemia
 {
     /**
      * @var
-     * $contentOfPregMatchAll;
+     *
      */
     public $contentOfPregMatchAll;
 
 
-
     /**
      * @param $content
-     * @return string
+     * @return mixed
+     *
      *
      */
     function getTitleFromContentWithRegex($content)
@@ -55,7 +55,6 @@ class RegexSinemia
      * @param $content
      * @return mixed
      *
-     *
      */
     function getImagefromContentWithRegex($content)
     {
@@ -67,13 +66,31 @@ class RegexSinemia
     /**
      * @param $content
      * @return string
-     * description çekilecek
+     *
      */
     function getDescriptionFromContentWithRegex($content)
     {
 
+        unset($content);
+        return "";
 
-        return   "açıklama kısmı";
+    }
+
+
+    /**
+     * @param $content
+     * @return mixed
+     *
+     *
+     */
+    public function getDateFromContentWithRegex($content)
+    {
+        $re = '/<td>([0-9]+.\D*\s\d*)<\/td>/m';
+
+        preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
+
+
+        return $matches[0][0];
 
     }
 

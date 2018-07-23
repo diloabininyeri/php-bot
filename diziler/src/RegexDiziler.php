@@ -92,7 +92,7 @@ class RegexDiziler
         preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
 
 
-        return $matches;
+        return $matches[0][0];
 
 
     }
