@@ -11,7 +11,7 @@ class Result
      */
     private $array = [];
 
-    private $regexTiyatrolarComTr;
+    private $regexDiziler;
 
     /**
      * @param Content $content
@@ -24,7 +24,7 @@ class Result
     public function __construct()
     {
 
-        $this->regexTiyatrolarComTr = new RegexSinemia();
+        $this->regexDiziler = new RegexDiziler();
 
     }
 
@@ -39,24 +39,35 @@ class Result
     {
 
 
-        preg_match_all('@<div class="movie-box-new">(.*?)</div>@si', $content, $found);
+        preg_match_all('@<a class="search-item" href=".*" title=".*">(.*?)<\/a>@si', $content, $found,PREG_PATTERN_ORDER);
 
         $index = 0;
 
-
-        foreach ($found[0] as $val) {
-
+        $siteUrl='http://www.diziler.com';
 
 
 
-            $this->array[$index]["title"] = $this->regexTiyatrolarComTr->getTitleFromContentWithRegex($val);
-            $this->array[$index]["resim"] = $this->regexTiyatrolarComTr->getImagefromContentWithRegex($val)[1];
-            $this->array[$index]["href"] = $this->regexTiyatrolarComTr->getTHrefFromContentWithRegex($val);
-            $index += 1;
-        }
 
 
-        return $this->array;
+
+
+            foreach ($found[0] as $val)
+            {
+
+
+
+                $this->array[$index]["title"] =$this->regexDiziler->getTitleFromContentWithRegex($val);
+                $this->array[$index]["resim"] = $siteUrl.$this->regexDiziler->getImagefromContentWithRegex($val)[1];
+                $this->array[$index]["href"] = $siteUrl.$this->regexDiziler->getTHrefFromContentWithRegex($val);
+                $this->array[$index]["video"]=$this->regexDiziler->getVideoSrcFromurlWithRegex(file_get_contents($siteUrl.$this->regexDiziler->getTHrefFromContentWithRegex($val)));
+                $index += 1;
+
+
+            }
+
+
+
+        return $this->array ;
 
 
     }

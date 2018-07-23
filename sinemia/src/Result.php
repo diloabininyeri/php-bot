@@ -11,7 +11,7 @@ class Result
      */
     private $array = [];
 
-    private $regexTiyatrolarComTr;
+    private $regexSinemia;
 
     /**
      * @param Content $content
@@ -24,7 +24,7 @@ class Result
     public function __construct()
     {
 
-        $this->regexTiyatrolarComTr = new RegexSinemia();
+        $this->regexSinemia = new RegexSinemia();
 
     }
 
@@ -47,11 +47,11 @@ class Result
         foreach ($found[0] as $val) {
 
 
+            $this->array[$index]["title"] = $this->regexSinemia->getTitleFromContentWithRegex($val);
+            $this->array[$index]["resim"] = $this->regexSinemia->getImagefromContentWithRegex($val)[1];
+            $this->array[$index]["href"] = $this->regexSinemia->getTHrefFromContentWithRegex($val);
+            //$this->array[$index]["description"] = $this->regexSinemia->getDescriptionFromContentWithRegex(file_get_contents($this->regexSinemia->getTHrefFromContentWithRegex($val)));
 
-
-            $this->array[$index]["title"] = $this->regexTiyatrolarComTr->getTitleFromContentWithRegex($val);
-            $this->array[$index]["resim"] = $this->regexTiyatrolarComTr->getImagefromContentWithRegex($val)[1];
-            $this->array[$index]["href"] = $this->regexTiyatrolarComTr->getTHrefFromContentWithRegex($val);
             $index += 1;
         }
 

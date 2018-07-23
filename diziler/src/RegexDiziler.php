@@ -4,14 +4,13 @@
 namespace Diziler\src;
 
 
-class RegexSinemia
+class RegexDiziler
 {
     /**
      * @var
      * $contentOfPregMatchAll;
      */
     public $contentOfPregMatchAll;
-
 
 
     /**
@@ -25,7 +24,6 @@ class RegexSinemia
         $re = '/<img.+alt=[\'"](?P<alt>.+?)[\'"].*>/i';
 
         preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
-
 
 
         return $matches[0][1];
@@ -45,7 +43,7 @@ class RegexSinemia
         $re2 = '~<a(.*?)href="([^"]+)"(.*?)>~';
         preg_match_all($re2, $content, $matches2, PREG_SET_ORDER, 0);
 
-        return isset($matches2[0][2]) ? $matches2[0][2]:"";
+        return isset($matches2[0][2]) ? $matches2[0][2] : "";
 
 
     }
@@ -63,6 +61,41 @@ class RegexSinemia
         return $result;
     }
 
+    /**
+     * @param $content
+     * @return mixed
+     *
+     *
+     */
+    function getVideoSrcFromurlWithRegex($content)
+    {
+
+
+        preg_match_all("<meta property='og:video' content='(.*?)' />", $content, $result, PREG_PATTERN_ORDER);
+
+
+        return $result[1][0];
+
+    }
+
+    /**
+     * @param $content
+     * @return mixed
+     *
+     *
+     */
+    function getDescriptionFromContentWithRegex($content)
+    {
+
+        $re = '/<samp>(.*)<\/samp>/m';
+
+        preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
+
+
+        return $matches;
+
+
+    }
 
 
 }

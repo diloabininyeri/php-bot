@@ -9,7 +9,8 @@
     ],
     "require": {
         "php":">7.0.0",
-        "phpunit/phpunit": "^6.5"
+        "phpunit/phpunit": "^6.5",
+        "paquettg/php-html-parser": "^1.7"
     },
     "autoload":{
 

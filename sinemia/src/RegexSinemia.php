@@ -64,5 +64,18 @@ class RegexSinemia
     }
 
 
+    /**
+     * @param $content
+     * @return string
+     * description çekilecek
+     */
+    function getDescriptionFromContentWithRegex($content)
+    {
+
+
+        return   "açıklama kısmı";
+
+    }
+
 
 }
