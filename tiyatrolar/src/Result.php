@@ -10,8 +10,8 @@ class Result
      *
      */
     private $array = [],
-            $regexTiyatrolarComTr,
-            $contentTiyatrolarComTr;
+        $regexTiyatrolarComTr,
+        $contentTiyatrolarComTr;
 
 
     /**
@@ -45,12 +45,14 @@ class Result
 
             $this->array[$index]["title"] = $this->regexTiyatrolarComTr->getTitleFromContentWithRegex($val);
             $this->array[$index]["resim"] = $this->regexTiyatrolarComTr->getImagefromContentWithRegex($val)[1];
-            $this->array[$index]["href"] = $this->regexTiyatrolarComTr->getTHrefFromContentWithRegex($val);
+            $href = $this->regexTiyatrolarComTr->getTHrefFromContentWithRegex($val);
 
-            $contentNewLinkPage = $this->contentTiyatrolarComTr->fileGetContentRemoteSite($this->regexTiyatrolarComTr->getTHrefFromContentWithRegex($val));
+            $this->array[$index]["href"] = $href;
+
+            $contentNewLinkPage = $this->contentTiyatrolarComTr->fileGetContentRemoteSite($href);
 
             $this->array[$index]["seans"] = $this->regexTiyatrolarComTr->getSeansFromContentWithRegex($contentNewLinkPage);
-            $this->array[$index]["description"] = $this->regexTiyatrolarComTr->getDescriptionFromContentWithRegex($content);
+            $this->array[$index]["description"] = $this->regexTiyatrolarComTr->getDescriptionFromContentWithRegex($contentNewLinkPage);
 
             $index += 1;
         }

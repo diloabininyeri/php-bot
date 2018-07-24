@@ -21,16 +21,17 @@ $result=$factory
     ->sendParameters($_GET)
     ->createClass($_GET["number"]);
 
-/*header('Content-type: application/json; charset=utf-8');
+header('Content-type: application/json; charset=utf-8');
 
-echo json_encode($result);*/
 
 
 echo "<pre>";
 
-
-
 print_r($result);
+//echo json_encode($result);
+
+
+
 
 
 

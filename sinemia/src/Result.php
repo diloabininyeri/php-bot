@@ -54,10 +54,17 @@ class Result
 
             $newLinkPageContent = $this->contentSinemia->fileGetContentRemoteSite($this->regexSinemia->getTHrefFromContentWithRegex($val));
 
-            $this->array[$index]["date"]=$this->regexSinemia->getDateFromContentWithRegex($newLinkPageContent);
-            /*
+            $this->array[$index]["visiondate"] = $this->regexSinemia->getVisionDateFromContentWithRegex($newLinkPageContent);
 
-            $this->array[$index]["description"] = $this->regexSinemia->getDescriptionFromContentWithRegex($newLinkPageContent);*/
+            $fragmanVideoHrefPage=$this->regexSinemia->getHrefFragmanVideoFromContentWithRegex($newLinkPageContent);
+
+            $this->array[$index]["fragmanpagelink"]=$fragmanVideoHrefPage;
+
+            $this->array[$index]["embedvideo"]=$this->regexSinemia->getEmbedVideoFragmanFromContentWithRegex($this->contentSinemia->fileGetContentRemoteSite($fragmanVideoHrefPage));
+
+
+
+
 
             $index += 1;
         }

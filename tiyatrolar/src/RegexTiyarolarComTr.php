@@ -2,7 +2,6 @@
 
 namespace Tiyatrolar\src;
 
-use PHPHtmlParser\Dom;
 
 class RegexTiyarolarComTr
 {
@@ -65,13 +64,16 @@ class RegexTiyarolarComTr
     {
 
 
-
         $re = '/<p>(.+?)<a href="#" class="expand_more" id="show_more_act_summary" style="display: block;"><br>DEVAMI/m';
+
 
         preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
 
 
+
         return $matches;
+
+
 
 
     }

@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a4c620-401c-44a5-99a8-5895dc0f2b54" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/api_json_cinema.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_json_cinema.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biletix/src/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/biletix/src/Content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diziler/src/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/diziler/src/Content.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/diziler/src/RegexDiziler.php" beforeDir="false" afterPath="$PROJECT_DIR$/diziler/src/RegexDiziler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diziler/src/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/diziler/src/Result.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sinemia/src/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/sinemia/src/Content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory/FactoryClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/factory/FactoryClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sinemia/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sinemia/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sinemia/src/RegexSinemia.php" beforeDir="false" afterPath="$PROJECT_DIR$/sinemia/src/RegexSinemia.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sinemia/src/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/sinemia/src/Result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tiyatrolar/src/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/tiyatrolar/src/Content.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php" beforeDir="false" afterPath="$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tiyatrolar/src/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/tiyatrolar/src/Result.php" afterDir="false" />
     </list>
@@ -43,30 +39,36 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sinemia/src/Content.php">
+    <leaf>
+      <file leaf-file-name="Result.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tiyatrolar/src/Result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="403">
+              <caret line="54" column="88" lean-forward="true" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegexSinemia.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sinemia/src/RegexSinemia.php">
+      <file leaf-file-name="RegexTiyarolarComTr.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+            <state relative-caret-position="414">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#p#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Result.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sinemia/src/Result.php">
+      <file leaf-file-name="FactoryClass.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factory/FactoryClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="56" column="111" selection-start-line="56" selection-start-column="111" selection-end-line="56" selection-end-column="111" />
+            <state relative-caret-position="525">
+              <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+              <folding>
+                <element signature="e#28#70#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,31 +89,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sinemia/index.php" />
         <option value="$PROJECT_DIR$/tiyatrolar/test/FetchTiyatroTest.php" />
         <option value="$PROJECT_DIR$/tiyatrolar/test/index.php" />
         <option value="$PROJECT_DIR$/sinemia/test/index.php" />
         <option value="$PROJECT_DIR$/biletix/FactoryBridgeForFactory.php" />
         <option value="$PROJECT_DIR$/interfaces/FactoryBridgeForFactory.php" />
         <option value="$PROJECT_DIR$/interfaces/RegexFinderClasses.php" />
-        <option value="$PROJECT_DIR$/tiyatrolar/src/Content.php" />
         <option value="$PROJECT_DIR$/biletix/src/Result.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/diziler/src/RegexSinemia.php" />
         <option value="$PROJECT_DIR$/diziler/test/index.php" />
         <option value="$PROJECT_DIR$/diziler/index.php" />
-        <option value="$PROJECT_DIR$/factory/FactoryClass.php" />
-        <option value="$PROJECT_DIR$/diziler/src/RegexDiziler.php" />
         <option value="$PROJECT_DIR$/diziler/src/Content.php" />
         <option value="$PROJECT_DIR$/diziler/src/Result.php" />
-        <option value="$PROJECT_DIR$/tiyatrolar/src/Result.php" />
-        <option value="$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php" />
         <option value="$PROJECT_DIR$/biletix/src/Content.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/sinemia/src/Content.php" />
-        <option value="$PROJECT_DIR$/sinemia/src/RegexSinemia.php" />
+        <option value="$PROJECT_DIR$/sinemia/index.php" />
         <option value="$PROJECT_DIR$/sinemia/src/Result.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/tiyatrolar/src/Result.php" />
+        <option value="$PROJECT_DIR$/tiyatrolar/src/Content.php" />
+        <option value="$PROJECT_DIR$/sinemia/src/RegexSinemia.php" />
+        <option value="$PROJECT_DIR$/diziler/src/RegexDiziler.php" />
+        <option value="$PROJECT_DIR$/factory/FactoryClass.php" />
+        <option value="$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php" />
       </list>
     </option>
   </component>
@@ -182,6 +184,17 @@
             <path>
               <item name="api_json_cinema" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_json_cinema" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="diziler" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api_json_cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_json_cinema" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="diziler" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api_json_cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_json_cinema" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="factory" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -193,6 +206,17 @@
               <item name="api_json_cinema" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_json_cinema" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="sinemia" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api_json_cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_json_cinema" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tiyatrolar" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api_json_cinema" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_json_cinema" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tiyatrolar" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -245,12 +269,14 @@
       <workItem from="1532160948569" duration="51000" />
       <workItem from="1532161169228" duration="19561000" />
       <workItem from="1532321901468" duration="7671000" />
-      <workItem from="1532340254795" duration="11115000" />
+      <workItem from="1532340254795" duration="15031000" />
+      <workItem from="1532412809468" duration="1429000" />
+      <workItem from="1532414251575" duration="7114000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53510000" />
+    <option name="totallyTimeSpent" value="65969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,20 +297,20 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948583" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
       <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3286638" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.86849713" visible="true" weight="0.22498618" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.86849713" visible="true" weight="0.2305141" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32948583" />
       <window_info anchor="right" id="Database" order="3" weight="0.24875621" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
       <window_info id="Structure" order="1" sideWeight="0.1315029" side_tool="true" weight="0.20619127" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" id="Notes" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32948583" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5071259" side_tool="true" weight="0.21171919" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32948583" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3924449" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -516,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sinemia/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="9" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diziler/test/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -551,20 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diziler/src/Result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="58" column="96" lean-forward="true" selection-start-line="58" selection-start-column="96" selection-end-line="58" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tiyatrolar/src/Result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="52" column="93" selection-start-line="52" selection-start-column="93" selection-end-line="52" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sinemia/test/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -579,31 +584,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tiyatrolar/src/Content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diziler/src/RegexDiziler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="403" selection-start-line="5" selection-start-column="403" selection-end-line="5" selection-end-column="403" />
         </state>
       </provider>
     </entry>
@@ -614,44 +598,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php">
+    <entry file="file://$PROJECT_DIR$/sinemia/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factory/FactoryClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-          <folding>
-            <element signature="e#28#70#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sinemia/src/Content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="e#6#431#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiyatrolar/src/Content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiyatrolar/src/Result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="54" column="88" lean-forward="true" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sinemia/src/RegexSinemia.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="83" column="6" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
+        <state relative-caret-position="294">
+          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sinemia/src/Result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="56" column="111" selection-start-line="56" selection-start-column="111" selection-end-line="56" selection-end-column="111" />
+        <state relative-caret-position="163">
+          <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diziler/src/RegexDiziler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diziler/src/Result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="58" column="76" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factory/FactoryClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="101" column="58" selection-start-line="101" selection-start-column="58" selection-end-line="101" selection-end-column="58" />
+          <folding>
+            <element signature="e#28#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

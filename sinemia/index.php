@@ -1,7 +1,6 @@
 <?php
 require_once "vendor/autoload.php";
-
-//header('Content-Type: application/json');
+header('Content-Type: application/json');
 
 use Sinemia\src\{Content,Result};
 

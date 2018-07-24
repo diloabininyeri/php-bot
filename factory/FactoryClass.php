@@ -5,15 +5,12 @@ namespace Factory;
 
 use Biletix\src\Content as BiletixContent;
 use Biletix\src\Result as BiletixResult;
-
+use Diziler\src\Content as DizilerContent;
+use Diziler\src\Result as DizilerResult;
 use Sinemia\src\Content as SinemiaContent;
 use Sinemia\src\Result as SinemiaResult;
-
 use Tiyatrolar\src\Content as TiyatrolarContent;
 use Tiyatrolar\src\Result as TiyatrolarResult;
-
-use Diziler\src\Result as DizilerResult;
-use Diziler\src\Content  as DizilerContent;
 
 
 class FactoryClass
@@ -45,11 +42,22 @@ class FactoryClass
             Tiyatrolar.com.tr content çekme 1
             -----------------------------------------------------------------------------------*/
             case 1:
-                $startDate = $this->getParametersFromUrl["startDate"] != null ? $this->getParametersFromUrl["startDate"] : date("Ymd");
-                $finishdate = $this->getParametersFromUrl["finishDate"] != null ? $this->getParametersFromUrl["finishDate"] : date("Ymd", strtotime("+1 month"));
-                $province = $this->getParametersFromUrl["province"] != null ? $this->getParametersFromUrl["province"] : 34;
 
-                $content = (new TiyatrolarContent())->fileGetContentRemoteSite("https://tiyatrolar.com.tr/sahnedekiler?d=$startDate-$finishdate&il=$province&f=");
+                if ($this->getParametersFromUrl["d"] == null) {
+
+                    $startDate = date("Ymd");
+                    $finishdate = date("Ymd", strtotime("+1 month"));
+                    $date = $startDate . "-" . $finishdate;
+
+                } else {
+
+                    $date = $this->getParametersFromUrl["date"];
+
+                }
+
+
+                $province = $this->getParametersFromUrl["province"] != null ? $this->getParametersFromUrl["province"] : 34;
+                $content = (new TiyatrolarContent())->fileGetContentRemoteSite("https://tiyatrolar.com.tr/sahnedekiler?d=$date&il=$province&f=");
                 $result = (new TiyatrolarResult())->getResultRegex($content);
 
 
@@ -90,8 +98,8 @@ class FactoryClass
 
             case 4:
 
-                $content=(new DizilerContent())->fileGetContentRemoteSite("https://www.diziler.com/video-galerisi/fragmanlar");
-                $result=(new DizilerResult())->getResultRegex($content);
+                $content = (new DizilerContent())->fileGetContentRemoteSite("https://www.diziler.com/video-galerisi/fragmanlar");
+                $result = (new DizilerResult())->getResultRegex($content);
 
                 return $result;
 
