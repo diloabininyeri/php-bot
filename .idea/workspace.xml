@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87a4c620-401c-44a5-99a8-5895dc0f2b54" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diziler/src/RegexDiziler.php" beforeDir="false" afterPath="$PROJECT_DIR$/diziler/src/RegexDiziler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/factory/FactoryClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/factory/FactoryClass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sinemia/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sinemia/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sinemia/src/RegexSinemia.php" beforeDir="false" afterPath="$PROJECT_DIR$/sinemia/src/RegexSinemia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sinemia/src/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/sinemia/src/Result.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiyatrolar/src/Content.php" beforeDir="false" afterPath="$PROJECT_DIR$/tiyatrolar/src/Content.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php" beforeDir="false" afterPath="$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiyatrolar/src/Result.php" beforeDir="false" afterPath="$PROJECT_DIR$/tiyatrolar/src/Result.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +34,7 @@
       <file leaf-file-name="Result.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tiyatrolar/src/Result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="538">
               <caret line="54" column="88" lean-forward="true" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
             </state>
           </provider>
@@ -52,8 +43,8 @@
       <file leaf-file-name="RegexTiyarolarComTr.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+            <state relative-caret-position="313">
+              <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#p#0;n#!!top" expanded="true" />
               </folding>
@@ -271,12 +262,12 @@
       <workItem from="1532321901468" duration="7671000" />
       <workItem from="1532340254795" duration="15031000" />
       <workItem from="1532412809468" duration="1429000" />
-      <workItem from="1532414251575" duration="7114000" />
+      <workItem from="1532414251575" duration="11247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65969000" />
+    <option name="totallyTimeSpent" value="70102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,8 +287,8 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32948583" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32948583" />
-      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3286638" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.86849713" visible="true" weight="0.2305141" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3286638" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.86849713" visible="true" weight="0.2305141" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.24875621" />
       <window_info id="Structure" order="1" sideWeight="0.1315029" side_tool="true" weight="0.20619127" />
@@ -629,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tiyatrolar/src/Result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="54" column="88" lean-forward="true" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sinemia/src/RegexSinemia.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -674,10 +658,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tiyatrolar/src/Result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="54" column="88" lean-forward="true" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tiyatrolar/src/RegexTiyarolarComTr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        <state relative-caret-position="313">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
           <folding>
             <element signature="n#style#0;n#a#0;n#p#0;n#!!top" expanded="true" />
           </folding>

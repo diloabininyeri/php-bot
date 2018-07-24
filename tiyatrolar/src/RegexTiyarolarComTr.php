@@ -64,16 +64,34 @@ class RegexTiyarolarComTr
     {
 
 
-        $re = '/<p>(.+?)<a href="#" class="expand_more" id="show_more_act_summary" style="display: block;"><br>DEVAMI/m';
+        $re = '/<p>(.+?)<\/p>/m';
+        $result = null;
+
+        //$re = '<p>\n?(.+)<a href="#" class="expand_more" id="show_more_act_summary" style="display: block;"><br \/>DEVAMI<\/a';
 
 
         preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
 
 
+        foreach ($matches as $item) {
 
-        return $matches;
+            foreach ($item as $i) {
+                if (strstr($i, "DEVAMI")) {
+
+                    $arrayReplace = ["DEVAMI", "DAHA AZ GÖSTER"];
+
+                    $result = str_replace($arrayReplace, "", strip_tags($i));
+                    break 2;
+
+                }
 
 
+            }
+
+
+        }
+
+        return $result;
 
 
     }
