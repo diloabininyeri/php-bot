@@ -71,15 +71,12 @@ class Result
         $this->array[0]["video"] = $videoArray;
 
 
+        $descriptionArray = [];
 
-        $descriptionArray=[];
-
-        $c=0;
-
+        $c = 0;
 
 
-        foreach($this->array[0]["href"] as $url)
-        {
+        foreach ($this->array[0]["href"] as $url) {
 
             $newContentForDescription = $this->contentSinemalar->fileGetContentRemoteSite($url);
 
@@ -89,10 +86,7 @@ class Result
         }
 
 
-
-
-
-        $this->array[0]["description"]=$descriptionArray;
+        $this->array[0]["description"] = $descriptionArray;
 
 
         $returnArray = [];

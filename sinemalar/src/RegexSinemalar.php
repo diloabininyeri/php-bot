@@ -126,13 +126,7 @@ class RegexSinemalar
         $find = $dom->find('p[itemprop="description"]');
 
         return $find->text;
-        $re = '/<p itemprop="description">\n\s*(.+)\n\s*<\/p>/m';
 
-
-        preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
-
-
-        return $matches[0][1];
 
     }
 
