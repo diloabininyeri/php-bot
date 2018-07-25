@@ -3,15 +3,6 @@
     <testsuites>
         <testsuite>
             <directory suffix=".php">
-                ./sinemia/test
-            </directory>
-            <directory suffix=".php">
-                ./tiyatrolar/test
-            </directory>
-            <directory suffix=".php">
-                ./diziler/test
-            </directory>
-            <directory suffix=".php">
                 ./test
             </directory>
         </testsuite>

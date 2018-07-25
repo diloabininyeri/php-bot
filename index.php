@@ -13,21 +13,27 @@ require_once "vendor/autoload.php";
 use Factory\FactoryClass;
 
 
-$factory=new FactoryClass();
+$factory = new FactoryClass();
 
 
+function p($array)
+{
+    echo "<pre>";
 
-$result=$factory
+    print_r($array);
+
+    echo "</pre>";
+
+}
+
+$result = $factory
     ->sendParameters($_GET)
     ->createClass($_GET["number"]);
 
 header('Content-type: application/json; charset=utf-8');
 
 
-
-echo "<pre>";
-
-print_r($result);
+p($result);
 //echo json_encode($result);
 
 

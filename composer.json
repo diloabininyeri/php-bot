@@ -21,7 +21,10 @@
             "Biletix\\":"biletix",
             "Factory\\":"factory",
             "Interfaces\\":"interfaces",
-            "Diziler\\":"diziler"
+            "Diziler\\":"diziler",
+            "Showtv\\":"showtv",
+            "Reyting\\":"reyting",
+             "Sinemalar\\":"sinemalar"
         }
     }
 }

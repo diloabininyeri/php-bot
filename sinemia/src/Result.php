@@ -24,7 +24,7 @@ class Result
     {
 
         $this->regexSinemia = new RegexSinemia();
-        $this->contentSinemia = new \Sinemia\src\Content();
+        $this->contentSinemia = new Content();
 
 
     }

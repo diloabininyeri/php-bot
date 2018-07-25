@@ -7,6 +7,12 @@ use Biletix\src\Content as BiletixContent;
 use Biletix\src\Result as BiletixResult;
 use Diziler\src\Content as DizilerContent;
 use Diziler\src\Result as DizilerResult;
+use Reyting\src\Content as ReytingContent;
+use Reyting\src\Result as ReytingResult;
+use Showtv\src\Content as ShowTvContent;
+use Showtv\src\Result as SHowTvResult;
+use Sinemalar\src\Content as SinemalarContent;
+use Sinemalar\src\Result as SinemalarResult;
 use Sinemia\src\Content as SinemiaContent;
 use Sinemia\src\Result as SinemiaResult;
 use Tiyatrolar\src\Content as TiyatrolarContent;
@@ -105,6 +111,50 @@ class FactoryClass
 
                 break;
 
+            /* -----------------------------------------------------------------------------------------
+            showtv diziler arsivdeki diziler
+            -----------------------------------------------------------------------------------------*/
+
+            case 5:
+                $content = (new ShowTvContent())->fileGetContentRemoteSite("http://www.showtv.com.tr/ozel-videolar");
+                $result = (new SHowTvResult())->getResultRegex($content);
+
+                return $result;
+
+                break;
+
+
+            /*-----------------------------------------------------------------------------------------------
+            reytingleri çekme
+            ------------------------------------------------------------------------------------*/
+            case 6:
+
+
+                $content = (new ReytingContent())->fileGetContentRemoteSite("http://www.ranini.tv/reyting");
+
+
+                $result = (new ReytingResult())->getResultRegex($content);
+
+                return $result;
+
+
+                break;
+
+            /*------------------------------------------------------------------------------------------------------
+              vizyondaki filmler
+             ----------------------------------------------------------------------------------------------------*/
+
+            case 7:
+
+                $content = (new SinemalarContent())->fileGetContentRemoteSite("https://www.sinemalar.com/");
+
+
+                $result = (new SinemalarResult())->getResultRegex($content);
+
+                return $result;
+
+
+                break;
             /*---------------------------------------------------------------------------------------
               tüm ihtiamller dışında number için
             --------------------------------------------------------------------------------------*/
