@@ -30,10 +30,14 @@ $result = $factory
     ->sendParameters($_GET)
     ->createClass($_GET["number"]);
 
+
+
+
 header('Content-type: application/json; charset=utf-8');
 
 
 p($result);
+
 //echo json_encode($result);
 
 

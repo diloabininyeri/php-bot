@@ -7,17 +7,6 @@ use PHPHtmlParser\Dom;
 
 class RegexDiziMag
 {
-    private static $dom;
-
-    public function __construct()
-    {
-
-        if (self::$dom == null)
-            echo 11;
-        self::$dom = new Dom();
-
-    }
-
     /**
      * @param $content
      * @return mixed

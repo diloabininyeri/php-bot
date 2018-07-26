@@ -5,20 +5,27 @@ namespace Factory;
 
 use Biletix\src\Content as BiletixContent;
 use Biletix\src\Result as BiletixResult;
-use Diziler\src\Content as DizilerContent;
-use Diziler\src\Result as DizilerResult;
-use Dizimag\src\Content as DizimagContent;
-use Dizimag\src\Result as DizimagResult;
-use Reyting\src\Content as ReytingContent;
-use Reyting\src\Result as ReytingResult;
-use Showtv\src\Content as ShowTvContent;
-use Showtv\src\Result as SHowTvResult;
-use Sinemalar\src\Content as SinemalarContent;
-use Sinemalar\src\Result as SinemalarResult;
-use Sinemia\src\Content as SinemiaContent;
-use Sinemia\src\Result as SinemiaResult;
-use Tiyatrolar\src\Content as TiyatrolarContent;
-use Tiyatrolar\src\Result as TiyatrolarResult;
+use Diziler\src\{
+    Content as DizilerContent, Result as DizilerResult
+};
+use Dizimag\src\{
+    Content as DizimagContent, Result as DizimagResult
+};
+use Reyting\src\{
+    Content as ReytingContent, Result as ReytingResult
+};
+use Showtv\src\{
+    Content as ShowTvContent, Result as SHowTvResult
+};
+use Sinemalar\src\{
+    Content as SinemalarContent, Result as SinemalarResult
+};
+use Sinemia\src\{
+    Content as SinemiaContent, Result as SinemiaResult
+};
+use Tiyatrolar\src\{
+    Content as TiyatrolarContent, Result as TiyatrolarResult
+};
 
 
 class FactoryClass

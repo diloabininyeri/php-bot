@@ -2,6 +2,8 @@
 
 namespace Showtv\src;
 
+use Interfaces\ResultRegex;
+
 
 /**
  * Class Result
@@ -9,7 +11,7 @@ namespace Showtv\src;
  *
  *
  */
-class Result
+class Result implements ResultRegex
 {
     /**
      * @var array

@@ -3,7 +3,9 @@
 namespace Sinemia\src;
 
 
-class Result
+use Interfaces\ResultRegex;
+
+class Result implements ResultRegex
 {
     /**
      * @var array

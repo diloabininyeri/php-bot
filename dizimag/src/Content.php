@@ -3,7 +3,9 @@
 namespace Dizimag\src;
 
 
-class Content
+use Interfaces\ContentInterface;
+
+class Content implements ContentInterface
 {
     /**
      * @param $contentUrl

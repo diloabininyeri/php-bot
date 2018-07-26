@@ -2,6 +2,7 @@
 
 namespace Sinemalar\src;
 
+use Interfaces\ResultRegex;
 use PHPHtmlParser\Dom;
 
 /**
@@ -10,7 +11,7 @@ use PHPHtmlParser\Dom;
  *
  *
  */
-class Result
+class Result implements ResultRegex
 {
 
     /**

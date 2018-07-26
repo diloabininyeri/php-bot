@@ -3,9 +3,10 @@
 namespace Dizimag\src;
 
 
+use Interfaces\ResultRegex;
 use PHPHtmlParser\Dom;
 
-class Result
+class Result implements ResultRegex
 {
     /**
      * @var RegexDiziMag
