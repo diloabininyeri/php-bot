@@ -7,6 +7,8 @@ use Biletix\src\Content as BiletixContent;
 use Biletix\src\Result as BiletixResult;
 use Diziler\src\Content as DizilerContent;
 use Diziler\src\Result as DizilerResult;
+use Dizimag\src\Content as DizimagContent;
+use Dizimag\src\Result as DizimagResult;
 use Reyting\src\Content as ReytingContent;
 use Reyting\src\Result as ReytingResult;
 use Showtv\src\Content as ShowTvContent;
@@ -153,6 +155,18 @@ class FactoryClass
 
                 return $result;
 
+
+                break;
+
+            /*---------------------------------------------------------------
+            popüler diziler
+            ----------------------------------------------------------------*/
+            case 8:
+
+                $content = (new DizimagContent())->fileGetContentRemoteSite("http://dizimag.net/populer/");
+                $result = (new DizimagResult())->getResultRegex($content);
+
+                return $result;
 
                 break;
             /*---------------------------------------------------------------------------------------
