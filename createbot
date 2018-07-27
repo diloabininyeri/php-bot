@@ -1,0 +1,118 @@
+#!/usr/bin/php
+<?php
+
+$params = $argv;
+
+$foldername = $params[1];
+
+$path = "$foldername/src";
+
+if (!file_exists($path))
+    $createfolder = mkdir($path, 0777, true);
+
+
+$upperToFirstChar = ucfirst($foldername);
+
+$namespace = $upperToFirstChar . '\src';
+
+
+$content = "$foldername/src/Content.php";
+$result = "$foldername/src/Result.php";
+$regexClassName = "Regex" . ucfirst($foldername);
+
+$regexClass = "$foldername/src/Regex$upperToFirstChar.php";
+
+
+$writeContent = <<<content
+<?php
+ 
+namespace $namespace;
+
+use Interfaces\ContentInterface;
+
+class Content implements ContentInterface
+{
+ 
+   public function fileGetContentRemoteSite(\$contentUrl)
+    {
+    
+    }
+ 
+}
+ 
+ 
+content;
+
+
+$writeResult = <<<result
+<?php
+
+namespace $namespace;
+
+use Interfaces\ResultRegex;
+use PHPHtmlParser\Dom;
+
+class Result implements ResultRegex
+{
+
+  public function getResultRegex(\$content)
+  {
+  
+  
+  }
+
+}
+
+
+result;
+
+
+$writeRegex = <<<regex
+<?php
+
+namespace $namespace;
+
+
+class $regexClassName
+{
+
+
+
+}
+
+
+
+regex;
+
+
+if (!file_exists($result)) {
+
+
+    touch($result);
+    $openResult = fopen($result, 'w');
+    fwrite($openResult, $writeResult);
+    fclose($openResult);
+}
+
+
+if (!file_exists($content)) {
+    touch($content);
+    $openContent = fopen($content, 'w');
+    fwrite($openContent, $writeContent);
+    fclose($openContent);
+}
+
+
+if (!file_exists($regexClass)) {
+
+    touch($regexClass);
+    $openRegex = fopen($regexClass, 'w');
+
+    fwrite($openRegex, $writeRegex);
+
+    fclose($openRegex);
+
+
+}
+
+

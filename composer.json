@@ -25,7 +25,8 @@
             "Showtv\\":"showtv",
             "Reyting\\":"reyting",
              "Sinemalar\\":"sinemalar",
-            "Dizimag\\":"dizimag"
+            "Dizimag\\":"dizimag",
+            "Dirilis\\":"dirilis"
         }
     }
 }
