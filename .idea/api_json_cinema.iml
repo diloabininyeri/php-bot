@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/showtv" isTestSource="false" packagePrefix="Showtv\" />
       <sourceFolder url="file://$MODULE_DIR$/tiyatrolar" isTestSource="false" packagePrefix="Tiyatrolar\" />
       <sourceFolder url="file://$MODULE_DIR$/dizimag" isTestSource="false" packagePrefix="Dizimag\" />
-      <sourceFolder url="file://$MODULE_DIR$/dirilis" isTestSource="false" packagePrefix="Dirilis\" />
+      <sourceFolder url="file://$MODULE_DIR$/puhu" isTestSource="false" packagePrefix="Puhu\" />
       <sourceFolder url="file://$MODULE_DIR$/sinemia" isTestSource="false" packagePrefix="Sinemia\" />
       <sourceFolder url="file://$MODULE_DIR$/biletix" isTestSource="false" packagePrefix="Biletix\" />
       <sourceFolder url="file://$MODULE_DIR$/reyting" isTestSource="false" packagePrefix="Reyting\" />

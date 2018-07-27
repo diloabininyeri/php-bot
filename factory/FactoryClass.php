@@ -5,14 +5,29 @@ namespace Factory;
 
 use Biletix\src\Content as BiletixContent;
 use Biletix\src\Result as BiletixResult;
+use Diziler\src\{
+    Content as DizilerContent, Result as DizilerResult
+};
+use Dizimag\src\{
+    Content as DizimagContent, Result as DizimagResult
+};
+use Puhu\src\{Content as PuhuContent,Result as PuhuResult};
 
-use Diziler\src\{Content as DizilerContent, Result as DizilerResult};
-use Dizimag\src\{Content as DizimagContent, Result as DizimagResult};
-use Reyting\src\{Content as ReytingContent, Result as ReytingResult};
-use Showtv\src\{Content as ShowTvContent, Result as SHowTvResult};
-use Sinemalar\src\{Content as SinemalarContent, Result as SinemalarResult};
-use Sinemia\src\{Content as SinemiaContent, Result as SinemiaResult};
-use Tiyatrolar\src\{Content as TiyatrolarContent, Result as TiyatrolarResult};
+use Reyting\src\{
+    Content as ReytingContent, Result as ReytingResult
+};
+use Showtv\src\{
+    Content as ShowTvContent, Result as SHowTvResult
+};
+use Sinemalar\src\{
+    Content as SinemalarContent, Result as SinemalarResult
+};
+use Sinemia\src\{
+    Content as SinemiaContent, Result as SinemiaResult
+};
+use Tiyatrolar\src\{
+    Content as TiyatrolarContent, Result as TiyatrolarResult
+};
 
 
 class FactoryClass
@@ -164,8 +179,19 @@ class FactoryClass
 
                 break;
             /*---------------------------------------------------------------------------------------
-              tüm ihtiamller dışında number için
+              puhu tv
             --------------------------------------------------------------------------------------*/
+
+            case 9:
+
+                $content = (new PuhuContent())->fileGetContentRemoteSite("https://puhutv.com/dizi");
+
+                $result = (new PuhuResult())->getResultRegex($content);
+
+                return $result;
+
+
+                break;
             default:
 
 
