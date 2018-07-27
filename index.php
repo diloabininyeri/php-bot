@@ -27,7 +27,6 @@ $result = $factory
 header('Content-type: application/json; charset=utf-8');
 
 
-print_r($_SERVER);
 
 print_r($result);
 

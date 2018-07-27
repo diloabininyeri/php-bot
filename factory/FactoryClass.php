@@ -11,8 +11,9 @@ use Diziler\src\{
 use Dizimag\src\{
     Content as DizimagContent, Result as DizimagResult
 };
-use Puhu\src\{Content as PuhuContent,Result as PuhuResult};
-
+use Puhu\src\{
+    Content as PuhuContent, Result as PuhuResult
+};
 use Reyting\src\{
     Content as ReytingContent, Result as ReytingResult
 };
@@ -25,6 +26,9 @@ use Sinemalar\src\{
 use Sinemia\src\{
     Content as SinemiaContent, Result as SinemiaResult
 };
+use Star\src\Content as StartTvContent;
+use Star\src\Result as StartTvResult;
+
 use Tiyatrolar\src\{
     Content as TiyatrolarContent, Result as TiyatrolarResult
 };
@@ -192,6 +196,20 @@ class FactoryClass
 
 
                 break;
+
+            /*----
+            star tv
+            ------------*/
+
+            case 10:
+
+
+                $content = (new StartTvContent())->fileGetContentRemoteSite("https://www.startv.com.tr/dizi");
+                $result = (new StartTvResult())->getResultRegex($content);
+
+                return $result;
+
+
             default:
 
 
