@@ -46,10 +46,10 @@ class Result implements ResultRegex
 
         $i = 0;
         foreach ($find as $item) {
-            $href = $this->regexSinemalar->getHrefFromContentWithRegex($item);
+            $href = $this->regexSinemalar->getHrefFromContentWithRegex($item->innerhtml);
             $this->array[$i]["href"] = $href;
-            $this->array[$i]["title"] = $this->regexSinemalar->getTitleFromcontentWithRegex($item);
-            $this->array[$i]["img"] = $this->regexSinemalar->getImgSrcFromcontentWithRegex($item);
+            $this->array[$i]["title"] = $this->regexSinemalar->getTitleFromcontentWithRegex($item->innerhtml);
+            $this->array[$i]["img"] = $this->regexSinemalar->getImgSrcFromcontentWithRegex($item->innerhtml);
 
 
             $i++;

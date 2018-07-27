@@ -11,10 +11,10 @@ $content=(new Content())->fileGetContentRemoteSite("https://www.sinemia.com/gele
 
 $result=(new Result())->getResultRegex($content);
 
-echo "<pre>";
+
 
 
 print_r($result);
 
-echo "</pre>";
+
 

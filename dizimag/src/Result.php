@@ -39,14 +39,14 @@ class Result implements ResultRegex
         $i = 0;
         foreach ($find as $item) {
 
-            $this->array[$i]["img"] = $this->RegexDizimag->getImgSrcFromContentWithRegex($item);
-            $href = $this->RegexDizimag->getTHrefFromContentWithRegex($item);
+            $this->array[$i]["img"] = $this->RegexDizimag->getImgSrcFromContentWithRegex($item->innerhtml);
+            $href = $this->RegexDizimag->getTHrefFromContentWithRegex($item->innerhtml);
 
             $this->array[$i]["href"] = $href;
 
-            $this->array[$i]["title"] =  $this->RegexDizimag->getTitleFromContentWithRegex($item);
-            $this->array[$i]["rate"]  =  $this->RegexDizimag->getRateFromContentWithRegex($item);
-            $this->array[$i]["date"]  =  $this->RegexDizimag->getDateFromContentWithRegex($item);
+            $this->array[$i]["title"] = $this->RegexDizimag->getTitleFromContentWithRegex($item->innerhtml);
+            $this->array[$i]["rate"] = $this->RegexDizimag->getRateFromContentWithRegex($item->innerhtml);
+            $this->array[$i]["date"] = $this->RegexDizimag->getDateFromContentWithRegex($item->innerhtml);
 
             $newContent = $this->Dizimagcontent->fileGetContentRemoteSite($href);
 

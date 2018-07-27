@@ -16,15 +16,6 @@ use Factory\FactoryClass;
 $factory = new FactoryClass();
 
 
-function p($array)
-{
-    echo "<pre>";
-
-    print_r($array);
-
-    echo "</pre>";
-
-}
 
 $result = $factory
     ->sendParameters($_GET)
@@ -36,9 +27,9 @@ $result = $factory
 header('Content-type: application/json; charset=utf-8');
 
 
-p($result);
+print_r($_SERVER);
 
-//echo json_encode($result);
+print_r($result);
 
 
 

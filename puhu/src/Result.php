@@ -3,8 +3,13 @@
 namespace Puhu\src;
 
 use Interfaces\ResultRegex;
-use PHPHtmlParser\Dom;
 
+/**
+ * Class Result
+ * @package Puhu\src
+ *
+ * number=9
+ */
 class Result implements ResultRegex
 {
     private $regexPuhu, $array;
@@ -21,26 +26,23 @@ class Result implements ResultRegex
         $this->regexPuhu = new RegexPuhu();
     }
 
+
+    /**
+     * @param $content
+     * @return array
+     *
+     */
     public function getResultRegex($content)
     {
 
-
-        $i = 0;
-
-        $dom = new Dom();
+        $re = '/<script>window._INITSTATE_=(.+)<\/script><script>window/m';
+        preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
 
 
-        $dom->load($content);
-
-        $find = $dom->find(".image-component__placeholder");
-
-
-        foreach ($find as $item)
-           $this->array[]=$item->innerhtml;
+        return $matches[0][1];
 
 
 
-        return $this->array;
     }
 
 }
