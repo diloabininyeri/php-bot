@@ -28,7 +28,6 @@ use Sinemia\src\{
 };
 use Star\src\Content as StartTvContent;
 use Star\src\Result as StartTvResult;
-
 use Tiyatrolar\src\{
     Content as TiyatrolarContent, Result as TiyatrolarResult
 };

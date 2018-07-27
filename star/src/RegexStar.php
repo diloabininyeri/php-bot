@@ -92,6 +92,26 @@ class RegexStar
     }
 
 
+    /**
+     * @param $content
+     * @return mixed
+     *
+     *
+     */
+
+    public function getDateFromContentWithRegex($content)
+    {
+
+
+        $re = '~<span class="day">(.+)</span>~';
+
+        preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
+
+
+        return strip_tags($matches[0][1]);
+    }
+
+
 }
 
 

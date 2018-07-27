@@ -35,10 +35,14 @@ class Result implements ResultRegex
         $find = $dom->find("h2");
 
 
+
         $i = 0;
         foreach ($find as $item) {
             //$this->array[$i]["html"]=$item->innerhtml;
+
+
             $this->array[$i]["img"] = $this->RegexStar->getImgSrcFromContentWithRegex($item->innerhtml);
+            $this->array[$i]["date"]=$this->RegexStar->getDateFromContentWithRegex($item->innerhtml);
             $href = $linkSite.$this->RegexStar->getTHrefFromContentWithRegex($item->innerhtml);
             $this->array[$i]["href"] = $href;
 

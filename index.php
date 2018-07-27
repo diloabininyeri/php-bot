@@ -21,7 +21,7 @@ $result = $factory
     ->sendParameters($_GET)
     ->createClass($_GET["number"]);
 
-
+echo "<pre>";
 
 
 header('Content-type: application/json; charset=utf-8');
