@@ -2,8 +2,8 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/showtv" isTestSource="false" packagePrefix="Showtv\" />
       <sourceFolder url="file://$MODULE_DIR$/tiyatrolar" isTestSource="false" packagePrefix="Tiyatrolar\" />
+      <sourceFolder url="file://$MODULE_DIR$/fragmanlar" isTestSource="false" packagePrefix="Fragmanlar\" />
       <sourceFolder url="file://$MODULE_DIR$/dizimag" isTestSource="false" packagePrefix="Dizimag\" />
       <sourceFolder url="file://$MODULE_DIR$/puhu" isTestSource="false" packagePrefix="Puhu\" />
       <sourceFolder url="file://$MODULE_DIR$/sinemia" isTestSource="false" packagePrefix="Sinemia\" />

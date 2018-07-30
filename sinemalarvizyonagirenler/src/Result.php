@@ -8,11 +8,30 @@ use PHPHtmlParser\Dom;
 class Result implements ResultRegex
 {
 
-  public function getResultRegex($content)
-  {
-  
-  
-  }
+    /**
+     * @var Result
+     *
+     */
+    private $regexSinemalarvizyonagirenler,$array=[];
+
+    /**
+     * Result constructor.
+     *
+     */
+    public function __construct()
+    {
+
+        $this->regexSinemalarvizyonagirenler=new Result();
+    }
+
+    public function getResultRegex($content)
+    {
+
+
+
+        return 455;
+
+    }
 
 }
 

@@ -7,8 +7,15 @@ api settings's page
 
 error_reporting(E_ALL);
 
+/*----------------------
+set_time_limit(0);
+-----------------------*/
 
-$_SERVER['REMOTE_ADDR']="4.4.4.4";
+
+ini_set('xdebug.max_nesting_level', 300);
+
+
+
 
 
 

@@ -1,17 +1,25 @@
 <?php
- 
+
 namespace Sinemalarvizyonagirenler\src;
 
 use Interfaces\ContentInterface;
 
 class Content implements ContentInterface
 {
- 
-   public function fileGetContentRemoteSite($contentUrl)
+
+    /**
+     * @param $contentUrl
+     * @return bool|string
+     *
+     */
+    public function fileGetContentRemoteSite($contentUrl)
     {
-    
+
+        return file_get_contents($contentUrl);
+
+
     }
- 
+
 }
  
  

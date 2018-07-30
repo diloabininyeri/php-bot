@@ -63,7 +63,6 @@ class RegexTiyarolarComTr
     function getDescriptionFromContentWithRegex($content)
     {
 
-
         $re = '/<p>(.+?)<\/p>/m';
         $result = null;
 

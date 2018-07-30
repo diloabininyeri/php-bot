@@ -11,17 +11,19 @@ use Diziler\src\{
 use Dizimag\src\{
     Content as DizimagContent, Result as DizimagResult
 };
+use Fragmanlar\src\Content as FragmanlarContent;
+use Fragmanlar\src\Result as FragmanlarResult;
 use Puhu\src\{
     Content as PuhuContent, Result as PuhuResult
 };
 use Reyting\src\{
     Content as ReytingContent, Result as ReytingResult
 };
-use Showtv\src\{
-    Content as ShowTvContent, Result as SHowTvResult
-};
 use Sinemalar\src\{
     Content as SinemalarContent, Result as SinemalarResult
+};
+use Sinemalarvizyonagirenler\src\{
+    Content as SinemalarvizonagirenlerContent, Result as SinemavizyonagirenlerResult
 };
 use Sinemia\src\{
     Content as SinemiaContent, Result as SinemiaResult
@@ -126,14 +128,27 @@ class FactoryClass
                 break;
 
             /* -----------------------------------------------------------------------------------------
-            showtv diziler arsivdeki diziler
+            showtv diziler arsivdeki diziler http://localhost:8888/?number=5&page=2
             -----------------------------------------------------------------------------------------*/
 
             case 5:
-                $content = (new ShowTvContent())->fileGetContentRemoteSite("http://www.showtv.com.tr/ozel-videolar");
-                $result = (new SHowTvResult())->getResultRegex($content);
 
-                return $result;
+
+                $page = $this->getParametersFromUrl["page"] != null ? $this->getParametersFromUrl["page"] : 1;
+                if ($page == 1) {
+                    $contentUrl = "http://www.fragmanlarim.com";
+                } else {
+                    $contentUrl = "http://www.fragmanlarim.com/page/$page/";
+                }
+
+
+                $content = (new FragmanlarContent())->fileGetContentRemoteSite($contentUrl);
+                $result = (new FragmanlarResult())->getResultRegex($content);
+
+
+                $arraySlice = array_slice($result, 7);
+
+                return array_slice($arraySlice, -25, 10, true);
 
                 break;
 
@@ -209,6 +224,16 @@ class FactoryClass
                 return $result;
 
 
+            case 11:
+
+                $content = (new SinemalarvizonagirenlerContent())->fileGetContentRemoteSite("https://www.sinemalar.com/filmler/vizyondaki");
+                $result = (new SinemavizyonagirenlerResult())->getResultRegex($content);
+
+                return $result;
+
+                break;
+
+
             default:
 
 
@@ -232,6 +257,7 @@ class FactoryClass
 
 
         $this->getParametersFromUrl = $parameters;
+
 
         return $this;
     }
