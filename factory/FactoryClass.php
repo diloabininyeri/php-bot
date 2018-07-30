@@ -22,9 +22,8 @@ use Reyting\src\{
 use Sinemalar\src\{
     Content as SinemalarContent, Result as SinemalarResult
 };
-use Sinemalarvizyonagirenler\src\{
-    Content as SinemalarvizonagirenlerContent, Result as SinemavizyonagirenlerResult
-};
+use Sinemalarvideo\src\Content as SinemalarVideoContent;
+use Sinemalarvideo\src\Result as SinemalarVideoResult;
 use Sinemia\src\{
     Content as SinemiaContent, Result as SinemiaResult
 };
@@ -175,6 +174,7 @@ class FactoryClass
 
             case 7:
 
+
                 $content = (new SinemalarContent())->fileGetContentRemoteSite("https://www.sinemalar.com/");
 
 
@@ -222,18 +222,14 @@ class FactoryClass
                 $result = (new StartTvResult())->getResultRegex($content);
 
                 return $result;
-
-
-            case 11:
-
-                $content = (new SinemalarvizonagirenlerContent())->fileGetContentRemoteSite("https://www.sinemalar.com/filmler/vizyondaki");
-                $result = (new SinemavizyonagirenlerResult())->getResultRegex($content);
-
-                return $result;
-
                 break;
 
+            case 11:
+                $content = (new SinemalarVideoContent())->fileGetContentRemoteSite("https://www.sinemalar.com/ajax/basic/topBannerNew/1");
+                $result = (new SinemalarVideoResult())->getResultRegex($content);
 
+                return $result;
+                break;
             default:
 
 

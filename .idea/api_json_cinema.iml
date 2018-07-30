@@ -4,16 +4,17 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/tiyatrolar" isTestSource="false" packagePrefix="Tiyatrolar\" />
       <sourceFolder url="file://$MODULE_DIR$/fragmanlar" isTestSource="false" packagePrefix="Fragmanlar\" />
-      <sourceFolder url="file://$MODULE_DIR$/dizimag" isTestSource="false" packagePrefix="Dizimag\" />
       <sourceFolder url="file://$MODULE_DIR$/puhu" isTestSource="false" packagePrefix="Puhu\" />
-      <sourceFolder url="file://$MODULE_DIR$/sinemia" isTestSource="false" packagePrefix="Sinemia\" />
-      <sourceFolder url="file://$MODULE_DIR$/biletix" isTestSource="false" packagePrefix="Biletix\" />
-      <sourceFolder url="file://$MODULE_DIR$/reyting" isTestSource="false" packagePrefix="Reyting\" />
-      <sourceFolder url="file://$MODULE_DIR$/factory" isTestSource="false" packagePrefix="Factory\" />
       <sourceFolder url="file://$MODULE_DIR$/star" isTestSource="false" packagePrefix="Star\" />
       <sourceFolder url="file://$MODULE_DIR$/interfaces" isTestSource="false" packagePrefix="Interfaces\" />
       <sourceFolder url="file://$MODULE_DIR$/diziler" isTestSource="false" packagePrefix="Diziler\" />
       <sourceFolder url="file://$MODULE_DIR$/sinemalar" isTestSource="false" packagePrefix="Sinemalar\" />
+      <sourceFolder url="file://$MODULE_DIR$/dizimag" isTestSource="false" packagePrefix="Dizimag\" />
+      <sourceFolder url="file://$MODULE_DIR$/sinemia" isTestSource="false" packagePrefix="Sinemia\" />
+      <sourceFolder url="file://$MODULE_DIR$/biletix" isTestSource="false" packagePrefix="Biletix\" />
+      <sourceFolder url="file://$MODULE_DIR$/reyting" isTestSource="false" packagePrefix="Reyting\" />
+      <sourceFolder url="file://$MODULE_DIR$/factory" isTestSource="false" packagePrefix="Factory\" />
+      <sourceFolder url="file://$MODULE_DIR$/sinemalarvideo" isTestSource="false" packagePrefix="Sinemalarvideo\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/myclabs/deep-copy" />
