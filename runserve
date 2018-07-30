@@ -1,8 +1,8 @@
 #!/usr/bin/php
 <?php
-
-
 echo "listening at  http://localhost:8888\n\n";
 
-$output = shell_exec("php -S  0.0.0.0:8888");
+exec("python browser.py");
+$output = shell_exec("php -S 0.0.0.0:8888");
+
 print "<pre>$output</pre>";
