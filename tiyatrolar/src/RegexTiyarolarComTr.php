@@ -128,10 +128,30 @@ class RegexTiyarolarComTr
         preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
 
 
-        return $matches[0]["seans"];
+        $arrayReplace = ["BİLET AL", "DAHA AZ GÖSTER"];
+
+        return str_replace($arrayReplace, "", strip_tags($matches[0][1]));
 
 
     }
 
+
+    /**
+     * @param $content
+     * @return mixed
+     *
+     */
+
+    public function getYoutbeVideoFromContentwithRegex($content)
+    {
+        $re = '/<a class="popup-youtube" href="(.+)">/m';
+
+
+        preg_match_all($re, $content, $matches, PREG_SET_ORDER, 0);
+
+
+        return $matches[0][1];
+
+    }
 
 }

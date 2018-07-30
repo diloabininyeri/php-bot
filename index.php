@@ -1,4 +1,5 @@
 <?php
+header('Content-type: application/json; charset=utf-8');
 /**
  *
  * @api
@@ -16,16 +17,11 @@ use Factory\FactoryClass;
 $factory = new FactoryClass();
 
 
-
 $result = $factory
     ->sendParameters($_GET)
     ->createClass($_GET["number"]);
 
 echo "<pre>";
-
-
-header('Content-type: application/json; charset=utf-8');
-
 
 
 print_r($result);

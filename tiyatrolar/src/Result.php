@@ -55,6 +55,7 @@ class Result implements ResultRegex
 
             $this->array[$index]["seans"] = $this->regexTiyatrolarComTr->getSeansFromContentWithRegex($contentNewLinkPage);
             $this->array[$index]["description"] = $this->regexTiyatrolarComTr->getDescriptionFromContentWithRegex($contentNewLinkPage);
+            $this->array[$index]["video"]=$this->regexTiyatrolarComTr->getYoutbeVideoFromContentwithRegex($contentNewLinkPage);
 
             $index += 1;
         }

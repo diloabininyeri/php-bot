@@ -71,7 +71,7 @@ class FactoryClass
 
                 } else {
 
-                    $date = $this->getParametersFromUrl["date"];
+                    $date = $this->getParametersFromUrl["d"];
 
                 }
 

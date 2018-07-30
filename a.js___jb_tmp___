@@ -1,0 +1,658 @@
+<
+pre > {
+    "ui": {
+        "adBlocksBlocked": false,
+        "isAuthModalHidden": true,
+        "snacks": {"cookie": false, "adBlock": false},
+        "isAppBarHidden": false,
+        "isNavigationHidden": false,
+        "isLinkHeaderManaged": true,
+        "isFooterHidden": false,
+        "isHeaderSolid": true,
+        "isSnackBarHidden": true
+    },
+    "user": {
+        "gender": null,
+        "error": null,
+        "anonymousId": null,
+        "followedTitles": [],
+        "name": "",
+        "sessionId": null,
+        "status": null,
+        "cardSelectionSkipped": false,
+        "profilePicture": null,
+        "connectedWithFacebook": false,
+        "id": null,
+        "createdAt": null,
+        "additionalInfoSkipped": false,
+        "loading": false,
+        "email": null,
+        "watchStatTokens": {},
+        "ageRange": null
+    },
+    "routing": {"locationHistory": [], "location": null},
+    "entities": {
+        "specialCategories": {
+            "byId": [{
+                "displayName": "mylist",
+                "slugPath": "listemdekiler"
+            }, {
+                "displayName": "categories_recommendations",
+                "slugPath": "oneriler"
+            }, {
+                "displayName": "categories_popular",
+                "slugPath": "populer-icerikler"
+            }, {"displayName": "categories_new_arrivals", "slugPath": "yeni-gelenler"}], "allIds": [0, 1, 2, 3]
+        },
+        "categories": {
+            "byId": {
+                "8": {
+                    "id": 8,
+                    "slugPath": "film",
+                    "type": "movie",
+                    "displayName": "Film",
+                    "genres": [{"id": 17, "slugPath": "aile-film", "name": "Aile"}, {
+                        "id": 15,
+                        "slugPath": "dram-film",
+                        "name": "Dram"
+                    }, {"id": 19, "slugPath": "komedi-film", "name": "Komedi"}, {
+                        "id": 27,
+                        "slugPath": "romantik-film",
+                        "name": "Romantik"
+                    }, {"id": 32, "slugPath": "romantik-komedi-film", "name": "Romantik Komedi"}, {
+                        "id": 33,
+                        "slugPath": "aksiyon-macera-film",
+                        "name": "Aksiyon - Macera"
+                    }, {"id": 34, "slugPath": "genclik-film", "name": "Gençlik"}, {
+                        "id": 35,
+                        "slugPath": "polisiye-film",
+                        "name": "Polisiye"
+                    }, {"id": 38, "slugPath": "kult-film", "name": "Kült"}, {
+                        "id": 37,
+                        "slugPath": "donem-film",
+                        "name": "Dönem"
+                    }, {"id": 39, "slugPath": "gerilim-film", "name": "Gerilim"}, {
+                        "id": 43,
+                        "slugPath": "tiyatro-film",
+                        "name": "Tiyatro"
+                    }, {"id": 40, "slugPath": "korku-film", "name": "Korku"}, {
+                        "id": 42,
+                        "slugPath": "klasikler-film",
+                        "name": "Klasikler"
+                    }]
+                },
+                "11": {
+                    "id": 11,
+                    "slugPath": "dizi",
+                    "type": "serie",
+                    "displayName": "Dizi",
+                    "genres": [{"id": 17, "slugPath": "aile-dizi", "name": "Aile"}, {
+                        "id": 15,
+                        "slugPath": "dram-dizi",
+                        "name": "Dram"
+                    }, {"id": 19, "slugPath": "komedi-dizi", "name": "Komedi"}, {
+                        "id": 27,
+                        "slugPath": "romantik-dizi",
+                        "name": "Romantik"
+                    }, {"id": 32, "slugPath": "romantik-komedi-dizi", "name": "Romantik Komedi"}, {
+                        "id": 33,
+                        "slugPath": "aksiyon-macera-dizi",
+                        "name": "Aksiyon - Macera"
+                    }, {"id": 34, "slugPath": "genclik-dizi", "name": "Gençlik"}, {
+                        "id": 35,
+                        "slugPath": "polisiye-dizi",
+                        "name": "Polisiye"
+                    }, {"id": 37, "slugPath": "donem-dizi", "name": "Dönem"}, {
+                        "id": 38,
+                        "slugPath": "kult-dizi",
+                        "name": "Kült"
+                    }]
+                },
+                "14": {
+                    "id": 14,
+                    "slugPath": "puhutv-ozel-dizileri",
+                    "type": "originals",
+                    "displayName": "puhutv Özel Dizileri",
+                    "genres": []
+                }
+            }, "allIds": [11, 8, 14]
+        },
+        "titles": {
+            "4": {
+                "id": 4,
+                "name": "Kara Sevda",
+                "slugPath": "kara-sevda-detay",
+                "casts": ["Burak Özçivit", "Neslihan Atagül", "Kaan Urgancıoğlu"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Romantik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FFSsmi8PlDT3FZW1omTHkwJj-cS4=\u002F320x224\u002Fuploads\u002F1466523325-hlbsnmpvvnflxrnb-693712ac9a80021840b27b5e4dcc186e\u002F10x7_karasevda.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FGvzh0KERGoxR2XNhPuNkSTzKRHc=\u002F480x336\u002Fuploads\u002F1466523325-hlbsnmpvvnflxrnb-693712ac9a80021840b27b5e4dcc186e\u002F10x7_karasevda.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FG-fiGNKYJkD6gt_8AsF4HuqVLjw=\u002F540x378\u002Fuploads\u002F1466523325-hlbsnmpvvnflxrnb-693712ac9a80021840b27b5e4dcc186e\u002F10x7_karasevda.jpg 3x"
+                }
+            },
+            "5": {
+                "id": 5,
+                "name": "Behzat Ç.",
+                "slugPath": "behzat-c-detay",
+                "casts": ["Erdal Beşikçioğlu", "Fatih Artman", "İnanç Konukçu", "Berkan Şal", "Sezin Akbaşoğulları"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Polisiye"}, {"name": "Aksiyon - Macera"}, {"name": "Kült"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F86rj7vWMYchT8niIAjhvr2GN3ok=\u002F320x224\u002Fuploads\u002F1477051176-qimymshbmlmqwgzf-4b36a3ab9fcf239b079c59557f0dcdde\u002F10x7_behzat-c.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FEQLLQMsXhujY0t9DZ03Txq7PLIg=\u002F480x336\u002Fuploads\u002F1477051176-qimymshbmlmqwgzf-4b36a3ab9fcf239b079c59557f0dcdde\u002F10x7_behzat-c.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FsOwURGs8OIaWvSD_oKPAAPBUQ_E=\u002F540x378\u002Fuploads\u002F1477051176-qimymshbmlmqwgzf-4b36a3ab9fcf239b079c59557f0dcdde\u002F10x7_behzat-c.jpg 3x"
+                }
+            },
+            "6": {
+                "id": 6,
+                "name": "Kardeş Payı",
+                "slugPath": "kardes-payi-detay",
+                "casts": ["Ahmet Kural", "Murat Cemcir", "Seda Bakan", "Ayhan Taş", "Şinasi Yurtsever"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Aile"}, {"name": "Komedi"}, {"name": "Kült"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FcSb43qVHBpP5sAmgZZyfS8Sp1V4=\u002F320x224\u002Fuploads\u002F1465731377-tbdxidzonduhfxgr-af532957bd91a7d8a5c98c6fbe42d278\u002F10x7_kardes_pay.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FR4QymkJVUBtvyhM-37h2IiAaLRA=\u002F480x336\u002Fuploads\u002F1465731377-tbdxidzonduhfxgr-af532957bd91a7d8a5c98c6fbe42d278\u002F10x7_kardes_pay.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002Fn-TKmyKpO9PxEdedgiVvtOy8wP0=\u002F540x378\u002Fuploads\u002F1465731377-tbdxidzonduhfxgr-af532957bd91a7d8a5c98c6fbe42d278\u002F10x7_kardes_pay.jpg 3x"
+                }
+            },
+            "8": {
+                "id": 8,
+                "name": "İşler Güçler",
+                "slugPath": "isler-gucler-detay",
+                "casts": ["Ahmet Kural", "Murat Cemcir", "Sadi Celil Cengiz", "Burak Satıbol", "Şinasi Yurtsever"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Komedi"}, {"name": "Kült"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FUuAQM04ghzg8BdNyoqbeDo2PPGk=\u002F320x224\u002Fuploads\u002F1465731214-cpuvavfgoxnnicdy-b15fbc32794e7333440901e27de8a6fb\u002F10x7_isler_gucler.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FrgYTvvDQWGkS3DO2JxY-WX5eTww=\u002F480x336\u002Fuploads\u002F1465731214-cpuvavfgoxnnicdy-b15fbc32794e7333440901e27de8a6fb\u002F10x7_isler_gucler.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002F9WqqrtINFC1jUariLkTsi3w4BZk=\u002F540x378\u002Fuploads\u002F1465731214-cpuvavfgoxnnicdy-b15fbc32794e7333440901e27de8a6fb\u002F10x7_isler_gucler.jpg 3x"
+                }
+            },
+            "10": {
+                "id": 10,
+                "name": "Güzel Köylü",
+                "slugPath": "guzel-koylu-detay",
+                "casts": ["Gizem Karaca", "Berk Cankat", "Mehmet Ali Nuroğlu", "Zerrin Sümer", "Ahmet Mümtaz Taylan"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik"}, {"name": "Gençlik"}, {"name": "Komedi"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FuHwRenWQprKGeeiQN_WWTZdaZbs=\u002F320x224\u002Fuploads\u002F1465731299-xkxyydztrnpykkin-effcc4face50790dc2b06801a69321b6\u002F10x7_guzel_koylu.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002Fl9FIHkaoYJTFQKBgY_GKQOmLxSo=\u002F480x336\u002Fuploads\u002F1465731299-xkxyydztrnpykkin-effcc4face50790dc2b06801a69321b6\u002F10x7_guzel_koylu.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002F1BmA_cA4IpX0DW3P81lRA-XUHqo=\u002F540x378\u002Fuploads\u002F1465731299-xkxyydztrnpykkin-effcc4face50790dc2b06801a69321b6\u002F10x7_guzel_koylu.jpg 3x"
+                }
+            },
+            "24": {
+                "id": 24,
+                "name": "Tatlı Küçük Yalancılar",
+                "slugPath": "tatli-kucuk-yalancilar-detay",
+                "casts": ["Şükrü Özyıldız", "Bensu Soral", "Büşra Develi", "Beste Kökdemir", "Dilan Çiçek Deniz", "Melisa Şenolsun", "Burak Deniz"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Gençlik"}, {"name": "Romantik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002Fnpn8u89Fds5XoYCZPJZiVPrk2DQ=\u002F320x224\u002Fuploads\u002F1465731840-gmexfpcqobsvgkjr-2f8ff325dff561777f3e7092f1d6b210\u002F10x7_tatl_kucuk_yalanclar.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FTTdGyVHwXaOLG7-Il0qBRz1kiOE=\u002F480x336\u002Fuploads\u002F1465731840-gmexfpcqobsvgkjr-2f8ff325dff561777f3e7092f1d6b210\u002F10x7_tatl_kucuk_yalanclar.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FuecfO1OEjx55Qqkry6LHK6ij3fU=\u002F540x378\u002Fuploads\u002F1465731840-gmexfpcqobsvgkjr-2f8ff325dff561777f3e7092f1d6b210\u002F10x7_tatl_kucuk_yalanclar.jpg 3x"
+                }
+            },
+            "25": {
+                "id": 25,
+                "name": "Çilek Kokusu",
+                "slugPath": "cilek-kokusu-detay",
+                "casts": ["Demet Özdemir", "Yusuf Çim", "Murat Başoğlu", "Mine Tugay"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik"}, {"name": "Gençlik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FVunLn7eRyhajRsi2wlYyheNnaiA=\u002F320x224\u002Fuploads\u002F1465731930-geviljcxucyivpqj-21b3194476fe9b256ea3bfc066da31d3\u002F10x7_cilek_kokusu.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002Fyv03_kkv4TvJAIjNo1OONkQNcVc=\u002F480x336\u002Fuploads\u002F1465731930-geviljcxucyivpqj-21b3194476fe9b256ea3bfc066da31d3\u002F10x7_cilek_kokusu.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FmngKjKIYG-Um_knSRsGNhityg1U=\u002F540x378\u002Fuploads\u002F1465731930-geviljcxucyivpqj-21b3194476fe9b256ea3bfc066da31d3\u002F10x7_cilek_kokusu.jpg 3x"
+                }
+            },
+            "27": {
+                "id": 27,
+                "name": "46 Yok Olan...",
+                "slugPath": "46-yok-olan-detay",
+                "casts": ["Erdal Beşikçioğlu", "Yasemin Allen", "Melis Birkan", "Berkan Şal"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Aksiyon - Macera"}, {"name": "Kült"}, {"name": "Polisiye"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F7WktRnNHyojqV-PyZe6_8elkwsc=\u002F320x224\u002Fuploads\u002F1465732957-ipxijmllcgwdobwp-e3c407cbb6b98b99b2221d8f9efd4486\u002F10x7_46_yok_olan.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FhfgIsKG0i5aahcvYkvAR6ixZ_4U=\u002F480x336\u002Fuploads\u002F1465732957-ipxijmllcgwdobwp-e3c407cbb6b98b99b2221d8f9efd4486\u002F10x7_46_yok_olan.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FZB2uUeZfpAvC5FfEJqob_kKqV9E=\u002F540x378\u002Fuploads\u002F1465732957-ipxijmllcgwdobwp-e3c407cbb6b98b99b2221d8f9efd4486\u002F10x7_46_yok_olan.jpg 3x"
+                }
+            },
+            "33": {
+                "id": 33,
+                "name": "Kaçak Gelinler",
+                "slugPath": "kacak-gelinler-detay",
+                "casts": ["Selin Şekerci", "Deniz Baysal", "Açelya Topaloğlu"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Komedi"}, {"name": "Gençlik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F5F09ACjBlyhbh3T1Xepn_PLHB40=\u002F320x224\u002Fuploads\u002F1466512489-dunuejtfczprcfzq-ca4a623a572c8dfe810e81bed926f04c\u002F10x7_kacak_gelinler.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FsMn96uG1MRddEP8340F57A0Vddw=\u002F480x336\u002Fuploads\u002F1466512489-dunuejtfczprcfzq-ca4a623a572c8dfe810e81bed926f04c\u002F10x7_kacak_gelinler.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FPpyjYiOEMRSvcP2XCqPkxtMo0F4=\u002F540x378\u002Fuploads\u002F1466512489-dunuejtfczprcfzq-ca4a623a572c8dfe810e81bed926f04c\u002F10x7_kacak_gelinler.jpg 3x"
+                }
+            },
+            "40": {
+                "id": 40,
+                "name": "1 Erkek 1 Kadın",
+                "slugPath": "1-erkek-1-kadin-detay",
+                "casts": ["Demet Evgar", "Emre Karayel"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Komedi"}, {"name": "Romantik Komedi"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F5xqGFRNXm4VVziNc5Jv0pE6aqMk=\u002F320x224\u002Fuploads\u002F1465731765-zwjoryalkuxrnesb-c31a0c34afe49fd4f94040fd6a14cfb3\u002F10x7_1erkek1kadn.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FG03r84AniTLp2yan5YIi8MlXZaI=\u002F480x336\u002Fuploads\u002F1465731765-zwjoryalkuxrnesb-c31a0c34afe49fd4f94040fd6a14cfb3\u002F10x7_1erkek1kadn.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FQXwYiM5dpgAt4NUw-6qEPUshT9g=\u002F540x378\u002Fuploads\u002F1465731765-zwjoryalkuxrnesb-c31a0c34afe49fd4f94040fd6a14cfb3\u002F10x7_1erkek1kadn.jpg 3x"
+                }
+            },
+            "42": {
+                "id": 42,
+                "name": "Küçük Sırlar",
+                "slugPath": "kucuk-sirlar-detay",
+                "casts": ["Merve Boluğur", "Burak Özçivit", "Ebru Akel", "Sinem Kobal", "Kadir Doğulu"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Gençlik"}, {"name": "Romantik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F7xpjvGXkKEStsecIjzN0AL10Mo4=\u002F320x224\u002Fuploads\u002F1469168433-xcihyktmttkklzmt-adfb27fc51437172d52c339a54fe28ae\u002F10x7_kucuk_srlar.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002Fh3eU7JwfxARJszBkASY-2KP86FU=\u002F480x336\u002Fuploads\u002F1469168433-xcihyktmttkklzmt-adfb27fc51437172d52c339a54fe28ae\u002F10x7_kucuk_srlar.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002Fw63JcOfl98e1JEFxfYWIBXWIzng=\u002F540x378\u002Fuploads\u002F1469168433-xcihyktmttkklzmt-adfb27fc51437172d52c339a54fe28ae\u002F10x7_kucuk_srlar.jpg 3x"
+                }
+            },
+            "56": {
+                "id": 56,
+                "name": "Medcezir",
+                "slugPath": "medcezir-detay",
+                "casts": ["Çağatay Ulusoy", "Serenay Sarıkaya", "Hazar Ergüçlü", "Mine Tugay", "Barış Falay"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Romantik"}, {"name": "Gençlik"}, {"name": "Kült"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FoHjJny0luZMe91g-oAXhAWdGO-A=\u002F320x224\u002Fuploads\u002F1467027021-buwqcsnsjwewxflb-7c0c2df23af565efbc4c70dfd5a0c7e4\u002F10x7_medcezir.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FkYZgv1ODtij0D6dgF_SEpuVAw7g=\u002F480x336\u002Fuploads\u002F1467027021-buwqcsnsjwewxflb-7c0c2df23af565efbc4c70dfd5a0c7e4\u002F10x7_medcezir.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FxZfL5SU8EhxitjjrszOrZEfKF7E=\u002F540x378\u002Fuploads\u002F1467027021-buwqcsnsjwewxflb-7c0c2df23af565efbc4c70dfd5a0c7e4\u002F10x7_medcezir.jpg 3x"
+                }
+            },
+            "63": {
+                "id": 63,
+                "name": "Yüksek Sosyete",
+                "slugPath": "yuksek-sosyete-detay",
+                "casts": ["Hazar Ergüçlü", "Engin Öztürk", "Ozan Dolunay", "Meriç Aral"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik"}, {"name": "Gençlik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FVAUwJQ6o5dWMksDsnUrtHr3nQO8=\u002F320x224\u002Fuploads\u002F1466579884-nlajqjhyzzbtlbrq-fcb377cad8f2224c482794d08f933c56\u002F10x7_yuksek-sosyete.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FCa1rqg2pW1Yvm6R4VfOZg78-Oy4=\u002F480x336\u002Fuploads\u002F1466579884-nlajqjhyzzbtlbrq-fcb377cad8f2224c482794d08f933c56\u002F10x7_yuksek-sosyete.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FACplDctx_R4sAyvbgUz4YOG4s5Q=\u002F540x378\u002Fuploads\u002F1466579884-nlajqjhyzzbtlbrq-fcb377cad8f2224c482794d08f933c56\u002F10x7_yuksek-sosyete.jpg 3x"
+                }
+            },
+            "135": {
+                "id": 135,
+                "name": "Diriliş 'Ertuğrul'",
+                "slugPath": "dirilis-ertugrul-detay",
+                "casts": ["Engin Altan Düzyatan", "Didem Balçın", "Hülya Darcan", "Kaan Taşaner"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dönem"}, {"name": "Aksiyon - Macera"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FVINEc3f1qMaPFtgaUvbeAwTEMZc=\u002F320x224\u002Fuploads\u002F1517403287-ppiugwwhztjwgmua-a08d5cbc65588ea21895ff5accee2a1c\u002F10x7_dirilis(1).jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002F-YCAV7KmnEGlk-aUf4kCg5jauYg=\u002F480x336\u002Fuploads\u002F1517403287-ppiugwwhztjwgmua-a08d5cbc65588ea21895ff5accee2a1c\u002F10x7_dirilis(1).jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FlPY9t1zrP24sJQjKwYjwXe9Gkw8=\u002F540x378\u002Fuploads\u002F1517403287-ppiugwwhztjwgmua-a08d5cbc65588ea21895ff5accee2a1c\u002F10x7_dirilis(1).jpg 3x"
+                }
+            },
+            "140": {
+                "id": 140,
+                "name": "Leyla ile Mecnun",
+                "slugPath": "leyla-ile-mecnun-detay",
+                "casts": ["Ali Atay", "Cengiz Bozkurt", "Serkan Keskin", "Ezgi Asaroğlu", "Ahmet Mümtaz Taylan", "Köksal Engür"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik"}, {"name": "Komedi"}, {"name": "Kült"}, {"name": "Dram"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FXX-pC3OLXogdQig1QGEQ1k5Fv-c=\u002F320x224\u002Fuploads\u002F1483433369-qrukutmssgnhwoug-67d851b3879ce2f1e8678c5918217565\u002F10x7_leylailemecnun.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FGiSltUVlwNhitekfzzkEtKCS0E0=\u002F480x336\u002Fuploads\u002F1483433369-qrukutmssgnhwoug-67d851b3879ce2f1e8678c5918217565\u002F10x7_leylailemecnun.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FhOnU_8js6jrcbTMoB4XQH5hCDM4=\u002F540x378\u002Fuploads\u002F1483433369-qrukutmssgnhwoug-67d851b3879ce2f1e8678c5918217565\u002F10x7_leylailemecnun.jpg 3x"
+                }
+            },
+            "142": {
+                "id": 142,
+                "name": "Sakarya Fırat",
+                "slugPath": "sakarya-firat-detay",
+                "casts": ["Tayanç Ayaydın", "Zerrin Sümer", "Barış Alpaykut", "İsmail Hakkı Ürün"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Aksiyon - Macera"}, {"name": "Dram"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F95OsUuhmXvLBtLLC1xjaPVurVMA=\u002F320x224\u002Fuploads\u002F1483433055-zzgnjgfndsykhwyl-fad8d2701c5610e35bbf63a7004d97ef\u002F10x7_sakarya_firat.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FEhDaUUmLAen2a1u3ZFZANiQepzs=\u002F480x336\u002Fuploads\u002F1483433055-zzgnjgfndsykhwyl-fad8d2701c5610e35bbf63a7004d97ef\u002F10x7_sakarya_firat.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FZ2HtbOT3TTULZab-DKad7_jaoxs=\u002F540x378\u002Fuploads\u002F1483433055-zzgnjgfndsykhwyl-fad8d2701c5610e35bbf63a7004d97ef\u002F10x7_sakarya_firat.jpg 3x"
+                }
+            },
+            "214": {
+                "id": 214,
+                "name": "İçerde",
+                "slugPath": "icerde-detay",
+                "casts": ["Çağatay Ulusoy", "Aras Bulut İynemli", "Çetin Tekindor", "Bensu Soral", "Damla Colbay", "Mustafa Uğurlu"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Aksiyon - Macera"}, {"name": "Polisiye"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FSLt5HosE94igrZ9FXQK1vstKMGU=\u002F320x224\u002Fuploads\u002F1474354993-dkidjnmfomvmwulc-f3f166788efc54ed8697e232a270e5ff\u002F10x7_icerde.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002Fzx9A6WjhHoEY2gwxGypv0Us_N60=\u002F480x336\u002Fuploads\u002F1474354993-dkidjnmfomvmwulc-f3f166788efc54ed8697e232a270e5ff\u002F10x7_icerde.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002Fq3P4fkvceF5iTCI3UpNyzgvSeS0=\u002F540x378\u002Fuploads\u002F1474354993-dkidjnmfomvmwulc-f3f166788efc54ed8697e232a270e5ff\u002F10x7_icerde.jpg 3x"
+                }
+            },
+            "299": {
+                "id": 299,
+                "name": "Hayat Bazen Tatlıdır",
+                "slugPath": "hayat-bazen-tatlidir-detay",
+                "casts": ["Birce Akalay", "Ufuk Özkan", "Kanbolat Görkem Arslan"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Komedi"}, {"name": "Dram"}, {"name": "Gençlik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FNvBYSzmOC58ZXfxEQPbRGFxXw1c=\u002F320x224\u002Fuploads\u002F1476342112-zrloszwnumauxvpc-280f22503cbb5d1e4529cd7c5caa148f\u002F10x7_hayat-bazen-tatldr.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FmrbmImhamj54QFsL2tyrmKMtEY4=\u002F480x336\u002Fuploads\u002F1476342112-zrloszwnumauxvpc-280f22503cbb5d1e4529cd7c5caa148f\u002F10x7_hayat-bazen-tatldr.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FaDym7D-uKLRBGIvef6ff5e-3raY=\u002F540x378\u002Fuploads\u002F1476342112-zrloszwnumauxvpc-280f22503cbb5d1e4529cd7c5caa148f\u002F10x7_hayat-bazen-tatldr.jpg 3x"
+                }
+            },
+            "306": {
+                "id": 306,
+                "name": "Cesur ve Güzel",
+                "slugPath": "cesur-ve-guzel-detay",
+                "casts": ["Kıvanç Tatlıtuğ", "Tuba Büyüküstün", "Tamer Levent", "Erkan Avcı", "Sezin Akbaşoğulları"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik"}, {"name": "Dram"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002Fxn1sz6Sq7WZ88-tj2yNR2QIwQN0=\u002F320x224\u002Fuploads\u002F1484896906-jrraoihrulpkgtpv-e175b952961a63843b8d36dd03166fe3\u002F10x7_cesur_ve_gzel_yeni.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FKnpF98qLs4M8zIPRjCXJ2PofRI8=\u002F480x336\u002Fuploads\u002F1484896906-jrraoihrulpkgtpv-e175b952961a63843b8d36dd03166fe3\u002F10x7_cesur_ve_gzel_yeni.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002F-EmK7H1ju8kItqfME3I4gEHbOIc=\u002F540x378\u002Fuploads\u002F1484896906-jrraoihrulpkgtpv-e175b952961a63843b8d36dd03166fe3\u002F10x7_cesur_ve_gzel_yeni.jpg 3x"
+                }
+            },
+            "345": {
+                "id": 345,
+                "name": "Kiralık Aşk",
+                "slugPath": "kiralik-ask-detay",
+                "casts": ["Elçin Sangu", "Barış Arduç", "Salih Bademci", "Müjde Uzman", "Nergis Kumbasar"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik Komedi"}, {"name": "Gençlik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FutOXPO64hCVz2T4p7L39SQ-80hc=\u002F320x224\u002Fuploads\u002F1482535982-xjsqejqmrxoxlwqq-da506506ea2f2779e8c28f733f6de201\u002F10x7_kiralik_ask.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FgoF7gLBjvGVyznlVS94xjWbRfe8=\u002F480x336\u002Fuploads\u002F1482535982-xjsqejqmrxoxlwqq-da506506ea2f2779e8c28f733f6de201\u002F10x7_kiralik_ask.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FaLPLJ-hIbQIC1Xmh0Pt1eMhzFu4=\u002F540x378\u002Fuploads\u002F1482535982-xjsqejqmrxoxlwqq-da506506ea2f2779e8c28f733f6de201\u002F10x7_kiralik_ask.jpg 3x"
+                }
+            },
+            "390": {
+                "id": 390,
+                "name": "İstanbullu Gelin",
+                "slugPath": "istanbullu-gelin-detay",
+                "casts": ["Özcan Deniz", "Aslı Enver", "İpek Bilgin", "Salih Bademci", "Fırat Tanış", "Dilara Aksüyek"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Romantik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002Fh1Bt4Xd6-dW4df-YOYan82Jmqh0=\u002F320x224\u002Fuploads\u002F1512391574-itribwqtsctwzzkc-681c4d8c0952f8dff9662fabfc0dc761\u002F10x7_istanbullu_gelin.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002F4_RuoHMzE8i5lD7UxRZlEHMiIXA=\u002F480x336\u002Fuploads\u002F1512391574-itribwqtsctwzzkc-681c4d8c0952f8dff9662fabfc0dc761\u002F10x7_istanbullu_gelin.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002Fjh2RPRqvjFNj_YlmqRYHWDqh6MY=\u002F540x378\u002Fuploads\u002F1512391574-itribwqtsctwzzkc-681c4d8c0952f8dff9662fabfc0dc761\u002F10x7_istanbullu_gelin.jpg 3x"
+                }
+            },
+            "419": {
+                "id": 419,
+                "name": "Yeni Gelin",
+                "slugPath": "yeni-gelin-detay",
+                "casts": ["Jessica May", "Tolga Mendi", "Mustafa Avkıran", "Dağhan Külegeç", "Sema Keçik"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik Komedi"}, {"name": "Dram"}, {"name": "Komedi"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FPAjrX5Uh5T2-ZYL3ijXV4ec19Cw=\u002F320x224\u002Fuploads\u002F1488888670-wonpryoohndkvpdl-458897353c6fa66bd79c8b30a94a3293\u002F10x7_yeni_gelin.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002F2fk1Bc8h1ZPbz7hwne8b3MkAW-8=\u002F480x336\u002Fuploads\u002F1488888670-wonpryoohndkvpdl-458897353c6fa66bd79c8b30a94a3293\u002F10x7_yeni_gelin.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002F5RmCw3U_s_WyxWv4frWT6Mia5Gw=\u002F540x378\u002Fuploads\u002F1488888670-wonpryoohndkvpdl-458897353c6fa66bd79c8b30a94a3293\u002F10x7_yeni_gelin.jpg 3x"
+                }
+            },
+            "422": {
+                "id": 422,
+                "name": "Fi",
+                "slugPath": "fi-detay",
+                "casts": ["Ozan Güven", "Serenay Sarıkaya", "Mehmet Günsür", "Berrak Tüzünataç", "Büşra Develi", "Osman Sonant", "Tülay Günal"],
+                "categories": [{"displayName": "puhutv Özel Dizileri"}, {"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Romantik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FmtGbMWT0XwFXUqrKTnTY0hBrf4Q=\u002F320x224\u002Fuploads\u002F1517896001-bikslqtablfppnri-45e738af9e6c37b63aee14309443ba29\u002F10x7_ci(2).jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FsCQiQ1cVKa5AimHKCzqIkDNgcOw=\u002F480x336\u002Fuploads\u002F1517896001-bikslqtablfppnri-45e738af9e6c37b63aee14309443ba29\u002F10x7_ci(2).jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002F5AQHAlpKD4R_rswSF4I7Q7vrOuc=\u002F540x378\u002Fuploads\u002F1517896001-bikslqtablfppnri-45e738af9e6c37b63aee14309443ba29\u002F10x7_ci(2).jpg 3x"
+                }
+            },
+            "427": {
+                "id": 427,
+                "name": "Fazilet Hanım ve Kızları",
+                "slugPath": "fazilet-hanim-ve-kizlari-detay",
+                "casts": ["Nazan Kesal", "Deniz Baysal", "Çağlar Ertuğrul", "Alp Navruz", "Mahir Günşıray", "Afra Saraçoğlu", "Tolga Güleç", "Hazal Türesan"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Aile"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FWB44GV8loSgvmZ898K0Iv63jfcc=\u002F320x224\u002Fuploads\u002F1517905503-ctwyyzgedevtqyig-53c8c7f026106d357f60c922686bbcfe\u002F10x7_fazilet_hanim_ve_kizlari.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FoxT9eXB4sgd_vUnCjPOVKQCuiyU=\u002F480x336\u002Fuploads\u002F1517905503-ctwyyzgedevtqyig-53c8c7f026106d357f60c922686bbcfe\u002F10x7_fazilet_hanim_ve_kizlari.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FB7bgPnadQcQm6RNZ1AIkIpZNNmM=\u002F540x378\u002Fuploads\u002F1517905503-ctwyyzgedevtqyig-53c8c7f026106d357f60c922686bbcfe\u002F10x7_fazilet_hanim_ve_kizlari.jpg 3x"
+                }
+            },
+            "483": {
+                "id": 483,
+                "name": "Ateşböceği",
+                "slugPath": "atesbocegi-detay",
+                "casts": ["Seçkin Özdemir", "Nilay Deniz", "Derya Alabora", "Umur Yiğit Vanlı", "Belma Canciğer"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Gençlik"}, {"name": "Romantik"}, {"name": "Romantik Komedi"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FBEfoDBXh8zFvhJcK3mNV16WbgzA=\u002F320x224\u002Fuploads\u002F1496909002-pphixtmxuwxskbzc-7126b0053c48648d154a8a74fce9e479\u002F10x7_ates_bocegi.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FgX6a7Xb_NOsp9djg6vKkVCs8iSY=\u002F480x336\u002Fuploads\u002F1496909002-pphixtmxuwxskbzc-7126b0053c48648d154a8a74fce9e479\u002F10x7_ates_bocegi.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FbVyyJQskNwUUyZ-8bACwbPMSvi0=\u002F540x378\u002Fuploads\u002F1496909002-pphixtmxuwxskbzc-7126b0053c48648d154a8a74fce9e479\u002F10x7_ates_bocegi.jpg 3x"
+                }
+            },
+            "488": {
+                "id": 488,
+                "name": "Dolunay",
+                "slugPath": "dolunay-detay",
+                "casts": ["Özge Gürel", "Can Yaman", "Hakan Kurtaş", "Necip Memili", "Öznur Serçeler"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik"}, {"name": "Romantik Komedi"}, {"name": "Gençlik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F_pSENxMXUXjvQYq-CtxdV4298G8=\u002F320x224\u002Fuploads\u002F1499063125-qtewvcwenrmplwfy-9c4f739cce9644a7cdfd4db9553efa9b\u002F10x7_dolunay(1).jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002F2wk0H00UTuwjDpS0WEZ7ty_8YsM=\u002F480x336\u002Fuploads\u002F1499063125-qtewvcwenrmplwfy-9c4f739cce9644a7cdfd4db9553efa9b\u002F10x7_dolunay(1).jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FUfoaqSj9Z-iEdye7rL0cCQGDGWo=\u002F540x378\u002Fuploads\u002F1499063125-qtewvcwenrmplwfy-9c4f739cce9644a7cdfd4db9553efa9b\u002F10x7_dolunay(1).jpg 3x"
+                }
+            },
+            "490": {
+                "id": 490,
+                "name": "Çember",
+                "slugPath": "cember-detay",
+                "casts": ["Pelin Akil Altan", "Barış Bağcı", "Anıl Altan", "Olgun Toker", "Serhat Kılıç"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Polisiye"}, {"name": "Aksiyon - Macera"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F7cc9HDBsuLerSmk-ZifxXJA-_r8=\u002F320x224\u002Fuploads\u002F1506521090-pqjvnjwpllooxkob-45875f586d3e78ef63a203d7ba6bb4ae\u002F10x7_cember.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FgrUgXBRNXZNFQQWwHhilxC1ayfs=\u002F480x336\u002Fuploads\u002F1506521090-pqjvnjwpllooxkob-45875f586d3e78ef63a203d7ba6bb4ae\u002F10x7_cember.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002F-zG-sr6aRnP7Y7St3bexGlx4K2w=\u002F540x378\u002Fuploads\u002F1506521090-pqjvnjwpllooxkob-45875f586d3e78ef63a203d7ba6bb4ae\u002F10x7_cember.jpg 3x"
+                }
+            },
+            "496": {
+                "id": 496,
+                "name": "Klavye Delikanlıları",
+                "slugPath": "klavye-delikanlilari-detay",
+                "casts": ["Uraz Kaygılaroğlu", "Vildan Atasever", "Ali Barkın", "Kaan Yıldırım", "Rasim Öztekin"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Komedi"}, {"name": "Gençlik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FYKJTko_FuXwWvW-pRUMrMm1EH80=\u002F320x224\u002Fuploads\u002F1506601608-irsjnrbpkptuevho-c19ce0980791262313ece0fc03d781ba\u002F10x7_klavye_delikanlilari.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FtStSpqQfCQs6VzPl95NCPyvB5W4=\u002F480x336\u002Fuploads\u002F1506601608-irsjnrbpkptuevho-c19ce0980791262313ece0fc03d781ba\u002F10x7_klavye_delikanlilari.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002F1Fkg2k3f5382gQ0TiQDma7axk5Q=\u002F540x378\u002Fuploads\u002F1506601608-irsjnrbpkptuevho-c19ce0980791262313ece0fc03d781ba\u002F10x7_klavye_delikanlilari.jpg 3x"
+                }
+            },
+            "498": {
+                "id": 498,
+                "name": "Adını Sen Koy",
+                "slugPath": "adini-sen-koy-detay",
+                "casts": ["Erkan Meriç", "Hazal Subaşı", "Yaprak Durmaz", "Aykut İğdeli"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Aile"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FdI_QAOM1So2M2bapHjrl7IM-kD8=\u002F320x224\u002Fuploads\u002F1519800247-pnymwejlbxsgpffa-48f1164c1a0a875722bf7d9292d0d205\u002F10x7_adini_sen_koy.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002F74BxQ00ICAp-n2BPAOmTVOUdhXQ=\u002F480x336\u002Fuploads\u002F1519800247-pnymwejlbxsgpffa-48f1164c1a0a875722bf7d9292d0d205\u002F10x7_adini_sen_koy.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FmB9WqPTZbl4jWrcyR7fJ9rzs_1A=\u002F540x378\u002Fuploads\u002F1519800247-pnymwejlbxsgpffa-48f1164c1a0a875722bf7d9292d0d205\u002F10x7_adini_sen_koy.jpg 3x"
+                }
+            },
+            "499": {
+                "id": 499,
+                "name": "Çukur",
+                "slugPath": "cukur-detay",
+                "casts": ["Aras Bulut İynemli", "Dilan Çiçek Deniz", "Erkan Kolçak Köstendil", "Ercan Kesal", "Öner Erkan", "Rıza Kocaoğlu", "Perihan Savaş"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Aksiyon - Macera"}, {"name": "Polisiye"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FyuwBIej6QpakTU4DnnrmGgSw4Ls=\u002F320x224\u002Fuploads\u002F1517387309-fbtneriawkldxght-91ebea028d0305c145416c94247d1564\u002F10x7_cukur(2).jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FVJYnT3mdlWVsb_OzMrNwVu6gQJ8=\u002F480x336\u002Fuploads\u002F1517387309-fbtneriawkldxght-91ebea028d0305c145416c94247d1564\u002F10x7_cukur(2).jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002Fw4JyYk_NZlzRwUhKQMfpt1GiZks=\u002F540x378\u002Fuploads\u002F1517387309-fbtneriawkldxght-91ebea028d0305c145416c94247d1564\u002F10x7_cukur(2).jpg 3x"
+                }
+            },
+            "501": {
+                "id": 501,
+                "name": "Ufak Tefek Cinayetler",
+                "slugPath": "ufak-tefek-cinayetler-detay",
+                "casts": ["Gökçe Bahadır", "Mert Fırat", "Bade İşçil", "Tülin Özen", "Aslıhan Gürbüz", "Yıldıray Şahinler", "Selim Bayraktar", "Ferit Aktuğ", "Hayal Köseoğlu"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Polisiye"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F3sSkjFV4nnmE2OajEUEgOUp-mx0=\u002F320x224\u002Fuploads\u002F1508140555-yopvcghsrmfsqids-7af0d029ad4988918c0c86d4f4b23fa7\u002F10x7_ufak_tefek_cinayetler.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002F8jbdAjKngb61MqC2PlmGebXWwRI=\u002F480x336\u002Fuploads\u002F1508140555-yopvcghsrmfsqids-7af0d029ad4988918c0c86d4f4b23fa7\u002F10x7_ufak_tefek_cinayetler.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FvjzHR9qowZ-hsbtb0rQSPcq2NZM=\u002F540x378\u002Fuploads\u002F1508140555-yopvcghsrmfsqids-7af0d029ad4988918c0c86d4f4b23fa7\u002F10x7_ufak_tefek_cinayetler.jpg 3x"
+                }
+            },
+            "508": {
+                "id": 508,
+                "name": "8. Gün",
+                "slugPath": "8-gun-detay",
+                "casts": ["Burcu Biricik", "Musa Uzunlar", "Buğra Gülsoy", "Ceyda Düvenci", "Cem Davran", "Yiğit Kirazcı", "Hakan Kurtaş"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Aile"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F3E9lWHYhnlKvMTxr7wMiUhiqoSA=\u002F320x224\u002Fuploads\u002F1519202374-hqoupkqegjifukrb-186894fcb1d440ce5a4b4f962150b697\u002F10x7_8.gun(2).jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FoGuQHJ79-p86OuldY96uy7NNi98=\u002F480x336\u002Fuploads\u002F1519202374-hqoupkqegjifukrb-186894fcb1d440ce5a4b4f962150b697\u002F10x7_8.gun(2).jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FKlYLC_KAuuoppVJp6j9xA_1XxnM=\u002F540x378\u002Fuploads\u002F1519202374-hqoupkqegjifukrb-186894fcb1d440ce5a4b4f962150b697\u002F10x7_8.gun(2).jpg 3x"
+                }
+            },
+            "510": {
+                "id": 510,
+                "name": "Avlu",
+                "slugPath": "avlu-detay",
+                "casts": ["Demet Evgar", "Ceren Moray", "Nursel Köse", "Kenan Ece", "Teoman Kumbaracıbaşı", "Rüçhan Çalışkur", "Deniz Barut"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FUiq3cFfjxGvNV16wMOHfS2CJpTU=\u002F320x224\u002Fuploads\u002F1522049652-nisfqbucmsacomje-2c4c77e32ccc64e0d82613c26cf01c37\u002F10x7_avlu(2).jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FC2DcLu65_jAn1kxrfILI9up-G0g=\u002F480x336\u002Fuploads\u002F1522049652-nisfqbucmsacomje-2c4c77e32ccc64e0d82613c26cf01c37\u002F10x7_avlu(2).jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002Fsg-8zFGrbwr8F8b1AKFSpfGiN5w=\u002F540x378\u002Fuploads\u002F1522049652-nisfqbucmsacomje-2c4c77e32ccc64e0d82613c26cf01c37\u002F10x7_avlu(2).jpg 3x"
+                }
+            },
+            "513": {
+                "id": 513,
+                "name": "Jet Sosyete",
+                "slugPath": "jet-sosyete-detay",
+                "casts": ["Çağlar Çorumlu", "Derya Karadaş", "Cengiz Bozkurt", "Gülse Birsel", "Sarp Apak", "Bartu Küçükçağlayan", "Hasibe Eren", "Enis Arıkan"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Komedi"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FdKRJO_7q3xdnKDkZsVxr2Xr07Wk=\u002F320x224\u002Fuploads\u002F1518785381-scajfloudotzlkfw-59680b7803299121c51c7ab65a95830f\u002F10x7_jet_sosyete.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002Fwztc3WybitV2eFdDl-rav2ptazo=\u002F480x336\u002Fuploads\u002F1518785381-scajfloudotzlkfw-59680b7803299121c51c7ab65a95830f\u002F10x7_jet_sosyete.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FeYgtUwM50SmLtwoxza_WgmRAgAY=\u002F540x378\u002Fuploads\u002F1518785381-scajfloudotzlkfw-59680b7803299121c51c7ab65a95830f\u002F10x7_jet_sosyete.jpg 3x"
+                }
+            },
+            "514": {
+                "id": 514,
+                "name": "Şahsiyet",
+                "slugPath": "sahsiyet-detay",
+                "casts": ["Haluk Bilginer", "Cansu Dere", "Metin Akdülger", "Şebnem Bozoklu", "Hüseyin Avni Danyal", "Necip Memili", "Müjde Ar"],
+                "categories": [{"displayName": "puhutv Özel Dizileri"}, {"displayName": "Dizi"}],
+                "genres": [{"name": "Dram"}, {"name": "Polisiye"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FGYkWNwW7wmzUyVry2_XdH8L_Fe8=\u002F320x224\u002Fuploads\u002F1520950213-bclcirmadrvyvcui-271031d2b257f4b2fe87781d280d5a4e\u002F10x7_sahsiyet(1).jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002Fu135RAQBtNAwdT0tOsugpp1DGEM=\u002F480x336\u002Fuploads\u002F1520950213-bclcirmadrvyvcui-271031d2b257f4b2fe87781d280d5a4e\u002F10x7_sahsiyet(1).jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FAX6rhrzhlo-MPceum8wp26ej7Es=\u002F540x378\u002Fuploads\u002F1520950213-bclcirmadrvyvcui-271031d2b257f4b2fe87781d280d5a4e\u002F10x7_sahsiyet(1).jpg 3x"
+                }
+            },
+            "515": {
+                "id": 515,
+                "name": "Dip",
+                "slugPath": "dip-detay",
+                "casts": ["İlker Kaleli", "Neslihan Atagül Doğulu", "Bülent Emin Yarar", "Berrak Tüzünataç", "Lale Mansur", "Defne Kayalar", "Olgun Toker", "Gün Koper", "Gözde Türkpençe", "Can Gox", "Feridun Düzağaç"],
+                "categories": [{"displayName": "puhutv Özel Dizileri"}, {"displayName": "Dizi"}],
+                "genres": [{"name": "Aksiyon - Macera"}, {"name": "Polisiye"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FHGWm0rYNiaOl2RcdhBCUq87R4SQ=\u002F320x224\u002Fuploads\u002F1522403460-jortjrtajoemcroh-3b33d045db329981d801521a36baaac0\u002F10x7_dip(3).jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002F3KDwWv2uPJYDne8WoM930SdDMBs=\u002F480x336\u002Fuploads\u002F1522403460-jortjrtajoemcroh-3b33d045db329981d801521a36baaac0\u002F10x7_dip(3).jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FT9GTepyxYIC9c_K021O5kimsGfM=\u002F540x378\u002Fuploads\u002F1522403460-jortjrtajoemcroh-3b33d045db329981d801521a36baaac0\u002F10x7_dip(3).jpg 3x"
+                }
+            },
+            "518": {
+                "id": 518,
+                "name": "Erkenci Kuş",
+                "slugPath": "erkenci-kus-detay",
+                "casts": ["Demet Özdemir", "Can Yaman", "Öznur Serçeler", "Özlem Tokaslan", "Berat Yenilmez", "Birand Tunca", "Sevcan Yaşar", "Ceren Taşçı", "Tuğçe Kumral", "Anıl Çelik"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FPEb4ouBjvefYTtmfZIzHy2fPlws=\u002F320x224\u002Fuploads\u002F1532419539-xtikttipewbhbyds-693f04b0959d8085f0f2b5a023eda4e4\u002FEK_title_10x7_v2.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FcI59FaPElz4H-kBx1BoozjxRKQ0=\u002F480x336\u002Fuploads\u002F1532419539-xtikttipewbhbyds-693f04b0959d8085f0f2b5a023eda4e4\u002FEK_title_10x7_v2.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002Fulf3kRJnh0qvivBIAtMxbE0rby0=\u002F540x378\u002Fuploads\u002F1532419539-xtikttipewbhbyds-693f04b0959d8085f0f2b5a023eda4e4\u002FEK_title_10x7_v2.jpg 3x"
+                }
+            },
+            "519": {
+                "id": 519,
+                "name": "Kalbimin Sultanı",
+                "slugPath": "kalbimin-sultani-detay",
+                "casts": ["Ali Ersan Duru", "Aleksandra Nikiforova", "Emel Çölgezen", "Tansel Öngel", "Sokolovsky Alexander", "Rudensky Andrey", "Shcherbina Dmitry", "Beste Kökdemir", "Sadi Celil Cengiz", "Tuncer Salman", "Taner Rumeli"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik"}, {"name": "Dönem"}, {"name": "Dram"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F48T2n0x2fYhPSSDMaBPniXStoi8=\u002F320x224\u002Fuploads\u002F1528358083-iyitxythrlzebggr-beecec759ca9d44c6db284387c5e7d8d\u002F10x7_kalbimin_sultani.jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FMnec6jc4oPgSdzilqPvRudElCbI=\u002F480x336\u002Fuploads\u002F1528358083-iyitxythrlzebggr-beecec759ca9d44c6db284387c5e7d8d\u002F10x7_kalbimin_sultani.jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002Fh-JyMS6lzxVfIsI3ckvWPrDOJBg=\u002F540x378\u002Fuploads\u002F1528358083-iyitxythrlzebggr-beecec759ca9d44c6db284387c5e7d8d\u002F10x7_kalbimin_sultani.jpg 3x"
+                }
+            },
+            "520": {
+                "id": 520,
+                "name": "Darısı Başımıza",
+                "slugPath": "darisi-basimiza-detay",
+                "casts": ["Ozan Dolunay", "Elif Doğan", "Devrim Yakut", "Açelya Topaloğlu", "Özgün Karaman", "Nergis Kumbasar", "İbrahim Kendirci", "Sevinç Erbulak"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik"}, {"name": "Komedi"}, {"name": "Romantik Komedi"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002F0TwQCsVlxheGUKjSWQkbZJM9K70=\u002F320x224\u002Fuploads\u002F1528875030-rpfhfttogadevjqt-5087d15683872dc4ce4beaf25967cca3\u002F10x7_darisi_basimiza(2).jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FgzJKxRqQ2eheJj-TmRBDfLKXHb0=\u002F480x336\u002Fuploads\u002F1528875030-rpfhfttogadevjqt-5087d15683872dc4ce4beaf25967cca3\u002F10x7_darisi_basimiza(2).jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002Fqud3_UYzplTamIe02s2UCCarUnU=\u002F540x378\u002Fuploads\u002F1528875030-rpfhfttogadevjqt-5087d15683872dc4ce4beaf25967cca3\u002F10x7_darisi_basimiza(2).jpg 3x"
+                }
+            },
+            "521": {
+                "id": 521,
+                "name": "Meleklerin Aşkı",
+                "slugPath": "meleklerin-aski-detay",
+                "casts": ["Oya Başar", "Gülper Özdemir", "Berkay Hardal", "Didem Balçın", "Toygan Avanoğlu", "Serkan Kuru", "Rümeysa Arslan", "Özlem Mahmutoğlu"],
+                "categories": [{"displayName": "Dizi"}],
+                "genres": [{"name": "Romantik"}, {"name": "Romantik Komedi"}, {"name": "Komedi"}],
+                "segmentImages": {
+                    "src": "\u002F\u002Fpuhutv-img.akamaized.net\u002FNqD0SpR6Qltf8BtGbMCoTQRSrVM=\u002F320x224\u002Fuploads\u002F1528806982-jzeeewtmokmoiotj-ed2be5e0ee6443f3a91381e20722fdb9\u002F10x7_meleklerin_aski(2).jpg",
+                    "srcset": "\u002F\u002Fpuhutv-img.akamaized.net\u002FgvmB-3bHO5pPGGRsgqHu_O2KDCo=\u002F480x336\u002Fuploads\u002F1528806982-jzeeewtmokmoiotj-ed2be5e0ee6443f3a91381e20722fdb9\u002F10x7_meleklerin_aski(2).jpg 2x, \u002F\u002Fpuhutv-img.akamaized.net\u002FtIPAuwQR5T2Y2HfS3G7rZrS7Mv0=\u002F540x378\u002Fuploads\u002F1528806982-jzeeewtmokmoiotj-ed2be5e0ee6443f3a91381e20722fdb9\u002F10x7_meleklerin_aski(2).jpg 3x"
+                }
+            }
+        },
+        "assets": {},
+        "seasons": {},
+        "slugs": {
+            "dizi": {
+                "genre": {"id": null, "name": null},
+                "meta": {
+                    "title": "En Popüler ve Unutulmaz Dizileri Tek Parça ve HD İzle | puhutv",
+                    "description": "En popüler diziler ile unutamadığınız dram, macera, polisiye ve komedi dizilerini tek parça ,HD görüntü kalitesiyle ve ücretsiz izle!",
+                    "ogTitle": "En Popüler ve Unutulmaz Dizileri Tek Parça ve HD İzle | puhutv",
+                    "ogDescription": "En popüler diziler ile unutamadığınız dram, macera, polisiye ve komedi dizilerini tek parça ,HD görüntü kalitesiyle ve ücretsiz izle!",
+                    "dmpCategory": "Dizi"
+                },
+                "isUserSpecific": false,
+                "isLoadingMore": false,
+                "segmentType": "",
+                "displayName": "Dizi",
+                "hasMore": true,
+                "page": 1,
+                "breadcrumbs": [{"name": "Dizi", "slug": "dizi"}],
+                "isLoading": false,
+                "titleCount": 143,
+                "type": "category",
+                "titles": [499, 514, 345, 422, 214, 501, 510, 5, 515, 519, 498, 390, 135, 419, 518, 513, 56, 6, 427, 25, 4, 299, 40, 140, 33, 521, 24, 10, 8, 520, 306, 142, 488, 42, 496, 483, 490, 27, 508, 63],
+                "category": {"id": 11}
+            }
+        },
+        "itemContainers": {},
+        "spotlightItems": {},
+        "notifications": {
+            "byId": {},
+            "allIds": [],
+            "isReadReqSent": false,
+            "isNotificationsLoading": false,
+            "isNotificationsStatusLoading": false,
+            "hasNewNotification": false
+        }
+    },
+    "authentication": {"isLoading": false, "isValid": false, "error": null, "accessToken": null},
+    "home": {"isLoading": true, "hasMore": null, "page": null, "itemContainers": [], "isLoadingMore": false},
+    "detailPage": {"isLoading": true, "titleId": ""},
+    "search": {"isLoading": true, "isError": false, "results": []},
+    "latestActions": ["@@redux\u002FINIT", "CATEGORIES\u002FCATEGORIES_FETCH", "CATEGORIES\u002FCATEGORY_FETCH", "UI\u002FMANAGED_LINK_HEADER", "CATEGORIES\u002FCATEGORIES_ADD", "CATEGORIES\u002FCATEGORY_ADD", "__ANALYTICS_MIDDLEWARE__\u002FcategoryView"],
+    "settings": {
+        "inputNameErrors": [],
+        "inputPasswordNewErrors": [],
+        "inputBirthdateErrors": [],
+        "inputPasswordNewAgainErrors": [],
+        "isLoading": true,
+        "inputAgeDayErrors": [],
+        "inputAgeMonthErrors": [],
+        "inputGenderErrors": [],
+        "inputEmailPasswordErrors": [],
+        "inputAgeYearErrors": [],
+        "inputEmailErrors": [],
+        "inputPasswordCurrentErrors": []
+    }
+}

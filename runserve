@@ -1,0 +1,8 @@
+#!/usr/bin/php
+<?php
+
+
+echo "listening at  http://localhost:8888";
+
+$output = shell_exec("php -S  0.0.0.0:8888");
+print "<pre>$output</pre>";
