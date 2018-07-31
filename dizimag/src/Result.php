@@ -26,6 +26,12 @@ class Result implements ResultRegex
     }
 
 
+    /**
+     * @param $content
+     * @return RegexDiziMag
+     *
+     *
+     */
     public function getResultRegex($content)
     {
 
