@@ -1,6 +1,7 @@
 {
   "name": "zeus/api_json_film",
   "description": "api jjson film",
+  "license": "MIT",
   "authors": [
     {
       "name": "dılo sürücü",
